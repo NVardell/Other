@@ -1,0 +1,49 @@
+# pack-refs with: peeled fully-peeled sorted 
+25b92db4d673fc1b3a2b7c4d7232744754b5f232 refs/remotes/origin/2.10
+91483380f4be3980cb8e9cd783b8369c331bd0df refs/remotes/origin/2.8
+dd627fb79a4250dad7099630866ae08e7bc324ca refs/remotes/origin/2.9
+4e616b15596130e528b11685916c5f96ab9e4790 refs/remotes/origin/master
+8a71f3b85899cc3b8fd5b051eb035b71a2d8d208 refs/tags/jackson-modules-java8-2.10.0.pr1
+^178b81d57d7e458a10c99fc63cc84d8e07d22392
+40a6b1fea4a6440f05fa69d5d2bcbefb13f8179b refs/tags/jackson-modules-java8-2.8.10
+^f73f4721c9dba8ac6c62adfae31da8799652f0c6
+15c1143c6e5a67f811f6e580abc6ef6fe811e1f2 refs/tags/jackson-modules-java8-2.8.11
+^f604cd1e6e0636f6fc421ff1ce7a7c96ac4cb0d5
+fa435801d133f4ea7915023f8c018ff9039ddd84 refs/tags/jackson-modules-java8-2.8.5
+^26f052989b413ab3cc30079070621c74190f2507
+0ef2f8c508af7c141275d064b13e8584011641cf refs/tags/jackson-modules-java8-2.8.6
+^1a80904e52ccb7ade06e6e944e2c40e2de50e4d7
+6bee7b807fe855be5eedd10a1e9da6d7aaa4faf8 refs/tags/jackson-modules-java8-2.8.7
+^bb76c0a8ebb8f626509852c4743677bc4bb1f71e
+0a7d85eb8e48ccc2470ed1fb4aa6fe572339b938 refs/tags/jackson-modules-java8-2.8.8
+^0a86ba7670504c0f7059d9daf584e19c60d3b560
+fe4951362e01cfc2b190e4b6d1425dfcd5e83d39 refs/tags/jackson-modules-java8-2.8.9
+^16f27c6c7ee080b3e04989aeceb987e8a7d8a3db
+058f1b76e8acc4de741bfd5d99c07a7bb6b3d36a refs/tags/jackson-modules-java8-2.9.0
+^fcd43e0fca49a836d6be08aa1e4cf437e61ac4ab
+d01338fbe7ae508f4706fd39bdfb67681b98e9d7 refs/tags/jackson-modules-java8-2.9.0.pr1
+^f9f7759cebcd452f2b41e08d40b6eb02680c2248
+44c053ddae73611da7693b43e5d1bf640e88cea1 refs/tags/jackson-modules-java8-2.9.0.pr2
+^2711cdcb90c59abc9247ddf49746b9ca69c099ec
+a4acf869dcad308c6ef296197e700be72a147974 refs/tags/jackson-modules-java8-2.9.0.pr3
+^b72c4d9ed536bbc30c6a3f1e1ce6e93c6b03c763
+13db759542f78d4c43c1df7ecd69b2fd1fdc75da refs/tags/jackson-modules-java8-2.9.0.pr4
+^e7640c09a40fe2ae8b065e68c100f0c3112d8448
+e3e2d99f166d3d4c5bc45039c73c9b9aa685d132 refs/tags/jackson-modules-java8-2.9.1
+^c3e1462354b0002f7e751571326a971c625a41f9
+90d7d3cc2486679c492aa202d90c3acdb742c0c1 refs/tags/jackson-modules-java8-2.9.2
+^e6c4a2c0e2544166b5f13e4e60c3ed8f1db1abec
+16f729ae2013593700224ede467e87c0e4f31bba refs/tags/jackson-modules-java8-2.9.3
+^6cf38513ca573ff2278a24d41a8a72ad44db0dc8
+0307b463d73eb7bad5734bf5a637633861ffa4c3 refs/tags/jackson-modules-java8-2.9.4
+^e329addb1e9fe66fcc7fb048322293cc9672262d
+451e5ca5b9e8c7fcf8a1e294e35336c6ace54602 refs/tags/jackson-modules-java8-2.9.5
+^4abe404a80825bdd2bd0476c4d6b88540d3c5bf3
+d0fc084cd133f87ebe530617b92fcd45f222d8aa refs/tags/jackson-modules-java8-2.9.6
+^4e6f4d58325e2b5922a4fc0c96292021b3fdbca6
+a8abf149727192379c1c487e779d6deb764f4d4c refs/tags/jackson-modules-java8-2.9.7
+^88fc32fa23c0503af50d35fbf54e550fccc70151
+416a4ea618e6349fed024df4fdccbf85fefe1275 refs/tags/jackson-modules-java8-2.9.8
+^aa6f619d42b69a9b07ea34c6a027339c5cec0472
+cb4be9b806c532f0e3c4e2e26fa8919816a2781d refs/tags/jackson-modules-java8-2.9.9
+^2541373de04df7d27b29b2ed7257960d55d648de

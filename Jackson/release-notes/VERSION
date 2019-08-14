@@ -1,0 +1,22 @@
+Project: jackson-modules-java8
+Versions: 3.x (for earlier, see VERSION-2.x)
+Modules:
+  jackson-datatype-jsr310
+  jackson-datatype-jdk8 (deprecated, no functionality as of 3.0)
+  jackson-module-parameter-names (deprecated, no functionality as of 3.0)
+
+Contains Date/Time types introduced in Java 8. With Jackson 2.x was separate
+module since baseline JDK was not yet Java 8. With Jackson 3.0 kept separate
+due to number of types.
+
+------------------------------------------------------------------------
+=== Releases ===
+------------------------------------------------------------------------
+
+3.0.0 (not yet released)
+
+#68: Parsing of `ZoneId` should respect `ALLOW_COERCION_OF_SCALARS`
+  wrt empty String
+- Deprecate "paramater names" and "datatypes" modules as functionality
+  now included directly in `jackson-databind`
+- Remove legacy `JSR310Module`

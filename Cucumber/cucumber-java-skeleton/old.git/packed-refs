@@ -1,0 +1,16 @@
+# pack-refs with: peeled fully-peeled sorted 
+a3ff72694e7a0b19455f926181532950901b691c refs/remotes/origin/add-licence
+fcefd86864532e73796a1065c1a55a09a96e4abe refs/remotes/origin/bump-cucumber-version
+830050486ba64ed78636fc7f9d5cdb7d18cfe850 refs/remotes/origin/gradle-cucumber-pro-cucumber-1.2.x
+7d1d2512e082304a863d76c0575eb955500f67ad refs/remotes/origin/gradle-cucumber-pro-cucumber-2.x
+45e1a7aa277836ce9e1a28008f6a49bd067439ba refs/remotes/origin/jetty-rest
+db16efbdf874d00917a86e3554d1361c950bfc87 refs/remotes/origin/master
+20c46d56dd462030586721165a64fcc94affbc36 refs/remotes/origin/remove-ant
+a38a726eaf3a8900184f84f0f8fe8e187a6b82b7 refs/tags/checkout-v1
+f4c7180274a1958977db1b11a80224161d597bf3 refs/tags/checkout-v2
+643146e9ec73518e9df2d60d9c0adb18e0428e51 refs/tags/checkout-v3
+f9951001e9e3ad9156496bc63aab3ae334afb38b refs/tags/course-2014-06-13-tag
+9988ae15d37663b52f8b0d70cb29a8be7344e4e2 refs/tags/v1.1.5
+af01bdfb4f8b643dc52f6a89c9ba0f47a434b4e1 refs/tags/v1.2.0
+ec224b1806617d21472488e4ed56ea9c8671091b refs/tags/v1.2.0.1
+^14325293b16f9692c3d0d535049b3c05547fcc18
