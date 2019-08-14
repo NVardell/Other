@@ -1,0 +1,11 @@
+# pack-refs with: peeled fully-peeled sorted 
+9b7a362b4d3c18029fe7b89d34a4bdf4c695ea23 refs/remotes/origin/BAEL-14787
+d73ad96976c79a55758df9ae9e265f2133590d6a refs/remotes/origin/BAEL-2937-Move
+3ea52a86f9cf35a122672147e0ed540b317342d8 refs/remotes/origin/BAEL-3022-Move
+b9497ddf5467faf19c6ee6f8a1d61a10f6f89182 refs/remotes/origin/fix-kotlin
+148ff421e054dcade28e97de8463ed75d332938a refs/remotes/origin/junit-fix
+a2e90642333c01f2547d1be9b5975d6a3053a34b refs/remotes/origin/lor6-patch-1
+d47801e7ba39a9cef16be44779a5fd50811719f7 refs/remotes/origin/lor6-patch-2
+94d62de468b976ec810d21eec62b595a5310ca07 refs/remotes/origin/lor6-patch-3
+fb2923639b33ec6e0fa03568469fb19b9ea04ae3 refs/remotes/origin/lor6-patch-4
+c79bc226684d1e32ccb8e0c9fcf91d2449c26897 refs/remotes/origin/master

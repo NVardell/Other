@@ -1,0 +1,9 @@
+f7053358fe43005fdf45021dfe8fd182493faec3		branch 'master' of https://github.com/eugenp/tutorials
+e1bad1ab5376c960ea12e14fb7deceb908a814ce	not-for-merge	branch 'BAEL-2883_integration_tests' of https://github.com/eugenp/tutorials
+d84e1bd4cf6044973f0240374f26519d4b2bd919	not-for-merge	branch 'BAEL-3036_CORS' of https://github.com/eugenp/tutorials
+ff9d07dfb7a6f717fbadb1323f4ba6ee06d44d7e	not-for-merge	branch 'BAEL-3059_Update_Play_Framework' of https://github.com/eugenp/tutorials
+22d6a3efb2b95944c0b12e3382f4dc8692013447	not-for-merge	branch 'exclude-test' of https://github.com/eugenp/tutorials
+3c4be783062ff187f05c3edfbd39efb96793d53b	not-for-merge	branch 'fix-boot-parent' of https://github.com/eugenp/tutorials
+957700955fcee8a301e19b2ed342d59666c5d030	not-for-merge	branch 'lor6-patch-1' of https://github.com/eugenp/tutorials
+95c467aa1259b8ef706f1cabc3a782d7dfd984f1	not-for-merge	branch 'remove-gitignore' of https://github.com/eugenp/tutorials
+cd00eed24f99d5e9d72014de2736394a00f7e3c7	not-for-merge	branch 'revert-7309-BAEL-2804' of https://github.com/eugenp/tutorials
