@@ -1,0 +1,90 @@
+<dialog id="member-detail">
+    <header>
+        <h1>{{strings.dialogTitleMemberDetails}}</h1>
+        <a data-role="close" href="#">{{strings.dialogButtonClose}}</a>
+    </header>
+    <div class="inner">
+    {% for member in members %}
+        <div data-member-id="{{member.tag}}">
+            <section class="identity">
+                <h2>
+                    {{member.name}}
+                    <small>{{member.tag}}</small>
+                </h2>
+                <div>
+                    <h3 class="xp-level">{{member.exp_level}}</h3>
+                    <h3 class="trophies">{{member.trophies}}</h3>
+                </div>
+
+                <figure class="arena-league {{member.arenaLeague}}">
+                    <figcaption>{{member.arenaLeagueLabel}}</figcaption>
+                </figure>
+
+            </section>
+            <h3><span>{{strings.dialogLabelPlayerStats}}</span></h3>
+            <section class="flex normal">
+                <div class="attribute-list">
+                    <dl>
+                        <dt>{{strings.labelClanRole}}</dt>
+                        <dd>{{member.role_label}}</dd>
+                    </dl>
+                    <dl>
+                        <dt>{{strings.labelMemberJoinDate}}</dt>
+                        <dd>{{member.join_date_label}}</dd>
+                    </dl>
+                    <dl>
+                        <dt>{{strings.labelMemberLastActivity}}</dt>
+                        <dd>
+                            {{member.activity_date_label}}<br />
+                            {% if member.days_inactive > 1 %}
+                                ({{member.days_inactive}} days)
+                            {% else %}
+                                (Today)
+                            {% endif %}
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>{{strings.labelLastSeen}}</dt>
+                        <dd>
+                            {{member.last_seen_formatted}}
+                            ({{member.last_seen_delta}})
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>{{strings.labelDonations}}</dt>
+                        <dd>{{member.donations}}</dd>
+                    </dl>
+                    <dl>
+                        <dt>{{strings.labelDonationsRecieved}}</dt>
+                        <dd>{{member.donations_received}}</dd>
+                    </dl>
+                    <dl>
+                        <dt>{{strings.labelWarWinRate}}</dt>
+                        <dd>
+                            <strong>{{member.war_win_rate}}%</strong><br>
+                        </dd>
+                    </dl>
+                </div>
+                <div>
+                    <a href="https://royaleapi.com/player/{{member.tag | replace('#', '')}}" rel="external" target="_blank" class="button royaleapi"><span>{{config.strings.dialogMemberRoyaleApi}}</span></a>
+                    <a href="https://statsroyale.com/profile/{{member.tag | replace('#', '')}}" rel="external" target="_blank" class="button statsroyale"><span>{{config.strings.dialogMemberStatsRoyale}}</span></a>
+                </div>
+            </section>
+            <h3><span>{{strings.dialogLabelPlayerHistory}}</span></h3>
+            <section>
+                <ul>
+                {% for event in member.events %}
+                    <li>{{event.date}} - {{event.message}}</li>
+                {% endfor %}
+                </ul>
+            </section>
+            {% if member.blacklist %}
+            <h3 class="blacklist"><span>{{strings.dialogMemberBlacklist}}</span></h3>
+            {% endif %}
+            {% if member.no_promote %}
+            <h3 class="no-promote"><span>{{strings.dialogMemberNoPromote}}</span></h3>
+            {% endif %}
+        </div>
+    {% endfor %}
+    </div>
+</dialog>

@@ -1,0 +1,1080 @@
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  color: #222;
+}
+html, body {
+    background-color: #000;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    background-color: #f2f2f2;
+}
+
+main > section, header > .inner, footer > .inner {
+    padding: 22px;
+}
+main > section > .section-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media (max-width: 700px) {
+    main > section, header > .inner, footer > .inner {
+        padding: 15px;
+    }
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+h1, h2, h4 {
+    font-weight: bold;
+}
+h1 { font-size: 5.0rem; line-height: 1.2;  letter-spacing: -.1rem; }
+h2 { font-size: 4.2rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 2.2rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 1.8rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.5rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.2rem; line-height: 1.6;  letter-spacing: 0; }
+
+@media (max-width: 550px) {
+    body { font-size: 1.3em; }
+    h1 { font-size: 4.0rem; }
+    h2 { font-size: 2.4rem; }
+    h3 { font-size: 2.0rem; }
+}
+p {
+  margin: 0 0 15px 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 80%;
+}
+.condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.nobr {
+    white-space: nowrap;
+}
+
+@media (min-width: 701px) {
+    .no-desktop {
+        display: none !important;
+    }
+}
+@media (max-width: 700px) {
+    .no-mobile {
+        display: none !important;
+    }
+}
+
+/* Content objects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+    border: none;
+    border-top: 1px solid #E1E1E1;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+img {
+    border: 0;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB;
+}
+a:active,
+a:hover {
+  color: #0FA0CE;
+  outline: 0;
+}
+
+.button {
+    text-shadow: -1px -1px 0px #003366,
+                 0px -1px 0px #003366,
+                 1px -1px 0px #003366,
+                 1px 0px 0px #003366,
+                 -1px 0px 0px #003366,
+                 -1px 1px 0px #003366,
+                 1px 1px 0px #003366,
+                 1px 2px 0px #003366,
+                 -1px 2px 0px #003366;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 22px;
+    box-shadow: 0px 1.5px 0px 0px rgba(0,0,0,0.3);
+
+    border: 2px solid #000;
+    position: relative;
+
+    background-color: #0058ac;
+}
+.button,
+.button:before {
+    border-radius: 8px;
+}
+.button > span {
+    display: block;
+    position: relative;
+    padding: 8px 32px;
+    margin: 5px 4px 8px 4px;
+    border-radius: 6px;
+    border-bottom: 2px solid rgba(0,0,128,0.3);
+
+    background: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 51%, rgba(255,255,255,0.2) 100%);
+}
+.button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 6px;
+    left: 0;
+    overflow: hidden;
+
+    border: 0.5px solid;
+    border-top-width: 3px;
+
+    border-color: #6ce0fc;
+    background-color: #4cacff;
+}
+.button > span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255,255,255,.7);
+    width: 7px;
+    height: 7px;
+    border-radius: 3px 6px;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+    list-style: disc;
+}
+ol {
+    counter-reset: li;
+    list-style-type: none;
+}
+ol, ul {
+    padding-left: 1em;
+    margin-top: 0;
+}
+ul ul, ul ol, ol ol, ol ul {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%;
+}
+li {
+    margin-bottom: 1rem;
+    padding-left: 0.5em;
+    position: relative;
+}
+ol li:before{
+    content: counter(li)'.';
+    counter-increment: li;
+    position: absolute;
+    left: -1em;
+}
+
+dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+dt, dd {
+    display: inline;
+}
+dt {
+    font-weight: normal;
+}
+dt:after {
+    content: ': ';
+}
+dd {
+    font-weight: bold;
+}
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 8px 14px;
+    text-align: left;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+@media (max-width: 700px) {
+    .table-scroll {
+        margin: -15px -15px 0 -15px;
+    }
+    .table-scroll tr:last-child td {
+        border-bottom: none;
+    }
+}
+
+.table-scroll-inner {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table thead th[role=columnheader]:not([data-sort-method=none]),
+#info table thead th[role=columnheader]:not([data-sort-method=none]) {
+    cursor: pointer;
+    position: relative;
+    padding-right: 14px;
+}
+
+th[role=columnheader]:not([data-sort-method=none]):after {
+    content: '▼';
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    margin-top: -4px;
+    font-size: 8px;
+    line-height: 8px;
+    visibility: hidden;
+    opacity: 0;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+th[aria-sort=ascending]:not([data-sort-method=none]):after {
+    content: '▲';
+}
+
+th[aria-sort]:not([data-sort-method=none]):after {
+    visibility: visible;
+    opacity: 0.4;
+}
+
+th[role=columnheader]:not([data-sort-method=none]):hover:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+label {
+    display: inline-block;
+}
+select {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    text-transform: none;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.row {
+    display: flex;
+}
+.row > * {
+    margin-right: 22px;
+    flex: 1;
+}
+.row > *:last-child {
+    margin-right: 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+@media (max-width: 700px) {
+    .row {
+        display: block;
+    }
+    .row > * {
+        margin-right: 0;
+    }
+}
+
+/* Page Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body > header {
+    background-color: #fff;
+}
+
+body > header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 72px;
+    background: url(../clan_logo.png) no-repeat left center;
+    background-size: contain;
+}
+body > header h1 em {
+    font-weight: normal;
+}
+
+@media (max-width: 700px) {
+    body > header h1 {
+        background-size: 48px;
+    }
+}
+@media (max-width: 460px) {
+    body > header h1 {
+        font-size: 20px;
+    }
+}
+
+/* Current war region
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#info article#current-war {
+    padding: 8px;
+}
+
+#current-war dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#current-war dl > * {
+    flex: 1;
+    min-width: 100px;
+    background-color: #fff;
+    margin: 1px;
+    padding: 7px;
+    border-right: 1px solid #E1E1E1;
+}
+
+#current-war dl > *:last-child {
+    border-right: none;
+}
+
+#current-war dl dt,
+#current-war dl dd {
+    display: block;
+    text-align: center;
+}
+
+#current-war .wins dd:before,
+#current-war .cards dd:before,
+#current-war .crowns dd:before
+{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 .3em -.1em 0;
+}
+
+#war-stats td.crowns,
+#current-war .crowns dd:before {
+    background-image: url(images/crown-gold.svg);
+}
+
+#current-war .cards dd:before {
+    background-image: url(images/cards.svg);
+}
+
+#war-stats td.wins,
+#current-war .wins dd:before {
+    background-image: url(images/war-battle-win.svg);
+}
+
+#war-stats td.battles {
+    background-image: url(images/battles.svg);
+}
+
+#info article#current-war-standings,
+#info article#recent-wars {
+    flex: 0;
+    padding: 4px 8px;
+}
+#war-stats table tr:last-child td {
+    border-bottom: none;
+}
+#war-stats table tr.this-clan {
+    background-color: #F1EAF4;
+    border-color: #BB89CC;
+    font-weight: bold;
+}
+
+#war-stats table tr td {
+    white-space: nowrap;
+    padding: 5px;
+}
+
+#war-stats td:before {
+    float: left;
+    vertical-align: bottom;
+}
+
+table td.date,
+table td.rank {
+    text-align: center;
+}
+
+table td.date,
+table td.rank,
+table td.wins,
+table td.crowns,
+table td.battles {
+    font-weight: bold;
+}
+
+td.last-seen {
+    font-size: 12px;
+    text-align: center;
+}
+
+#war-stats .wins,
+#war-stats .crowns,
+#war-stats .battles {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 1.1em;
+    padding-left: 1.4em;
+    padding-right: 1em;
+}
+#war-stats .battles {
+    padding-left: 1em;
+}
+#war-stats .wins {
+    padding-right: .5em;
+}
+
+table td.rank.rank-1 span {
+    background-color: rgb(255, 212, 42);
+}
+table td.rank.rank-2 span {
+    background-color: #ccc;
+}
+table td.rank.rank-3 span {
+    background-color: rgb(218, 165, 32);
+}
+
+table td.rank span {
+    display: inline-block;
+    border-radius: 4px;
+    background: rgba(192,192,192,.2);
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+}
+
+@media (max-width: 600px) {
+    #current-war dl {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    #current-war dl > * {
+        border: none;
+    }
+}
+
+/* Info section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#info header {
+    display: table-row;
+    width: 100%;
+}
+#info header > * {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#info thead img.war-league {
+    height: 14px;
+    vertical-align: -1px;
+}
+
+#info article {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    padding: 15px;
+    margin-top: 44px;
+    margin-bottom: 22px;
+}
+
+#info article table {
+    min-width: 200px;
+}
+
+#info article > header {
+    position: absolute;
+    top: -44px;
+    left: 0;
+}
+
+#info article > header h2 {
+    font-size: 3.0rem;
+}
+@media (max-width: 700px) {
+    #info article > header {
+        top: -30px;
+    }
+    #info article > header h2 {
+        font-size: 2.0rem;
+    }
+}
+
+/* Member table
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#info h2, #info h3, #info h4 {
+    margin: 0;
+}
+
+#info th, #info td {
+    padding: 8px;
+    line-height: 1.2em;
+}
+
+#member-table th:first-child, #member-table td:first-child {
+  padding-left: 0;
+}
+
+#member-table td.rank {
+    text-align: center;
+}
+
+#member-table td.name {
+    position: relative;
+}
+
+#member-table tr[data-new="true"] td.name,
+#member-table tr[data-nopromote="true"] td.name,
+#member-table tr[data-blacklist="true"] td.name {
+    padding-right: 44px;
+}
+
+#member-table tr[data-new="true"] td.name:after,
+#member-table tr[data-nopromote="true"] td.name:after,
+#member-table tr[data-blacklist="true"] td.name:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 6px;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32px;
+}
+
+#member-table tr[data-new="true"] td.name:after {
+    background-image: url(images/new.svg);
+}
+
+#info table th {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+#info table .member-role {
+    text-transform: capitalize;
+    display: block;
+}
+
+#info table tr[data-role='leader'] .member-role {
+    background: url(images/crown-gold.svg) no-repeat left center;
+    background-size: 1em;
+    padding-left: 1.3em;
+}
+
+
+#info table .score,
+#info table .inactivity,
+#info table .donations,
+#info table .donations-received,
+#info table .trophies {
+    text-align: center;
+}
+
+#member-table td.arena-league:before {
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#info .donations > img {
+    height: 14px;
+    vertical-align: -10%;
+}
+#info .donations.bad > img {
+    display: none;
+}
+
+#info table .war {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+}
+#info .war-cards {
+    white-space: nowrap;
+    font-weight: normal;
+    margin-top: 3px;
+}
+#info .war-cards:before {
+    content: '';
+    display: inline-block;
+    background: url(images/cards.svg) no-repeat;
+    width: 12px;
+    height: 12px;
+    background-size: contain;
+    vertical-align: -2px;
+    margin-right: -2px;
+}
+
+#info table .good,
+#info table .ok,
+#info table .bad {
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#member-table tr[data-activity=bad] td,
+#member-table tr[data-blacklist=true] td,
+#member-table tr[data-activity=ok] td:not(.bad) {
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#member-table tr[data-activity=bad] td,
+#member-table tr[data-blacklist=true] td {
+    background-color: #c13525;
+    color: #fff;
+}
+
+#member-table tr[data-activity=ok] td:not(.bad) {
+    background-color: #ffbb43;
+    color: #222;
+}
+
+#member-table tr[data-new="true"] td.score.ok,
+#member-table tr[data-new="true"] td.donations.ok {
+    background-color: #fff;
+    border-left: none;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+#info table#member-table tr td.na {
+    color: #999;
+    font-weight: normal;
+}
+
+#info table .not-in-clan {
+    background-color: #EEE;
+    color: #999;
+    font-weight: normal;
+}
+
+#info table .war em {
+    font-weight: normal;
+}
+
+#member-table td.war.current.normal {
+    border: 3px dashed #BB89CC;
+    background-color: #F1EAF4;
+    color: #222;
+}
+#member-table td.war.current.incomplete.ok {
+    border: 3px dashed #ffbb43;
+    background-color: #FFF6E6;
+    color: #222;
+}
+
+
+#info img.war-battle {
+    height: 18px;
+}
+
+#info table .rank-up,
+#info table .rank-down {
+    display: block;
+    position: relative;
+}
+
+#info table .rank-up:before,
+#info table .rank-down:before {
+    content: '';
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    margin-top: -5px;
+    right: -8px;
+}
+#info table .rank-up:before {
+    background-image: url(images/arrow-up.svg);
+}
+#info table .rank-down:before {
+    background-image: url(images/arrow-down.svg);
+}
+
+#info table tr[data-vacation="True"] td,
+#info table tr[data-vacation="True"] td:not(.bad) {
+    background-color: #ddd;
+    color: #999;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+#info table tr[data-vacation="True"] td:first-child {
+    border-left: none;
+}
+
+#info table tr[data-vacation="True"] .bad {
+    background-color: #d2b0ac;
+    color: #999;
+}
+#info table tr[data-vacation="True"] .ok {
+    background-color: #f5ce89;
+}
+#info table tr[data-vacation="True"] .good {
+    background-color: #d8f3e6;
+}
+#info table tr[data-vacation="True"] .donations,
+#info table tr[data-vacation="True"] .score {
+    background-color: #ddd;
+}
+#info table tr[data-vacation="True"] td img {
+    opacity: .3;
+}
+#info table tr[data-vacation="True"] .score > strong {
+    display: none;
+}
+
+#info table tr[data-vacation="True"] .score:after {
+    content: 'N/A';
+    font-size: 80%;
+}
+
+article.member-info > p {
+    text-align: center;
+    margin-top: 12px;
+}
+
+@media (max-width: 700px) {
+    #info th:first-child, #info td:first-child {
+      padding-left: 4px;
+    }
+    #info th, #info td {
+        line-height: 1.1em;
+    }
+    #info table th {
+        font-size: 10px;
+    }
+    #info table td {
+        font-size: 12px;
+    }
+}
+
+/* Score colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bad {
+    background-color: #c13525;
+    color: #fff;
+}
+.ok,
+.inactivity.normal {
+    background-color: #ffbb43;
+}
+.good {
+    background-color: #b6e9d1;
+}
+
+.na {
+    color: #999;
+}
+
+#info table .inactivity.na {
+    background-color: transparent;
+    color: #222;
+}
+
+
+strong.good,
+strong.ok,
+strong.bad,
+strong.na {
+    display: inline-block;
+    border-radius: 4px;
+    white-space: nowrap;
+    padding: 0 6px;
+}
+
+strong.na {
+    border: 1px dotted #999;
+}
+
+
+/* Rules
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#suggestions .list {
+    flex: 1;
+    padding-bottom: 15px;
+
+}
+#suggestions .info {
+    flex: 0;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+.rules {
+    width: 100%;
+}
+
+.rules .yes,
+.rules .no {
+    text-align: center;
+}
+
+
+/* Page footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+    color: #fff;
+    background-color: #000;
+}
+
+footer ul,
+footer ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul li::after {
+    content: '|';
+    display: inline-block;
+    padding: 0 16px;
+}
+
+footer ul li:last-child::after {
+    content: none;
+    display: none;
+}
+footer .version {
+    float: right;
+    color: #ccc;
+    font-weight: normal;
+}
+
+footer .version.update-available {
+    background: url(images/new.svg) no-repeat left center;
+    background-size: contain;
+    padding-left: 1.8em;
+}
+
+footer .disclaimer, footer .disclaimer a {
+    max-width: 800px;
+    margin: 44px 0 22px 0;
+    line-height: 1.3em;
+    color: #ccc;
+}
+
+/* Tooltips
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.tooltip {
+    display: none;
+}
+
+.b-tooltip{
+    position: absolute;
+    display: inline-block;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+
+    padding: 4px 6px;
+    min-width: 90px;
+
+    background: #ddd;
+    color: #222;
+    border: 1px solid #222;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.b-tooltip:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #ddd;
+    bottom: -4px;
+    right: 50%;
+    margin-right: -3px;
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #222;
+    transform: rotate(45deg);
+}
+.b-tooltip dl {
+    display: table;
+}
+.b-tooltip dl > div {
+    display: table-row;
+    white-space: nowrap;
+}
+.b-tooltip dl > div > dt,
+.b-tooltip dl > div > dd {
+    display: table-cell;
+}
+.b-tooltip dl > div > dt {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-right: 4px;
+}
+.b-tooltip dl > div > dd {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Github ribbon
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.github-fork-ribbon {
+    font-family: sans-serif;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: -999999px;
+    pointer-events: none;
+}
+
+.github-fork-ribbon:before, .github-fork-ribbon:after {
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 20px;
+
+    top: 41px;
+    right: -41px;
+
+    transform: rotate(45deg);
+}
+
+.github-fork-ribbon:before {
+    content: "";
+
+    padding: 5px 0;
+    background-color: #a00;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.15));
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+
+    pointer-events: auto;
+}
+
+.github-fork-ribbon:after {
+    content: "Fork me on GitHub";
+
+    line-height: 21px;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-indent: 0;
+
+    padding: 2px 0;
+    margin: 2px 0;
+
+    border-width: 1px 0;
+    border-style: dotted;
+    border-color: rgba(255,255,255,0.7);
+}
+
+@media (max-width: 700px) {
+    .github-fork-ribbon {
+        width: 90px;
+        height: 90px;
+        font-size: 9px;
+    }
+    .github-fork-ribbon:before, .github-fork-ribbon:after {
+        width: 150px;
+        height: 18px;
+
+        top: 21px;
+    }
+}

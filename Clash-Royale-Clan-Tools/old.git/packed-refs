@@ -1,0 +1,28 @@
+# pack-refs with: peeled fully-peeled sorted 
+4f2961e06194103c2d3d91febc34c486fdffdd1d refs/remotes/origin/feature/clan-leaderboard
+d26bc2ca368a5e921274a29ebce5cbe83c357606 refs/remotes/origin/feature/discord
+7c9db79ef551005f273631a2e02104c196a723ca refs/remotes/origin/feature/pyroyale-1.0
+9e047a551e8511d24c0332857c3fb10919e51619 refs/remotes/origin/feature/show_hide_rows
+e34c35b90e1d11985c7a2678393b6b4b3069f38e refs/remotes/origin/master
+f1845442b550593c05bb8167350c8a1837b22196 refs/tags/1.0.0
+^c59d1252abb23f731ab4b12099321fb0c0c268e5
+915703b3e85e516dda46e4f69515130e253e7fff refs/tags/1.1.0
+6468681077fb93b8d565d3a9706bb6a2d3e2bfae refs/tags/1.10.0
+42664104fb0ef835df6dc6b68ba63c970f407648 refs/tags/1.11.0
+9fa97830a136f25a5619dcc1d7829e50fe7e1b49 refs/tags/1.13.0
+^1b03a313efd069b1e8723f1f96c39adb811e3862
+a3f21ed7a80e8207726fe390c8bffeee5b5f5cf8 refs/tags/1.15.1
+682aca93f11b4a9fd187fedec3ca413cc84306d5 refs/tags/1.2.0
+9cdf44197e9703e3810e3274ba72b25b72aa4e74 refs/tags/1.2.2
+eeee0e3cadfc1b4125cfb3a4511119a9a18e3b9e refs/tags/1.4.0
+6dbfc42c1bf13024fbe10fa41791ba704b7f5695 refs/tags/1.8.0
+67bb76e78a1d48adc60d6a69db2e328321076455 refs/tags/1.9.0
+779f709b2a05d065c9bc8f539aadae9cbf8107f8 refs/tags/2.0.0
+e3e92bac57fb44c819f28bb0f513241bb7576ffa refs/tags/2.1.0
+14a84a9d9c174b312690eff864de42face27b9cf refs/tags/2.2.0
+^08d8921f2d344525cf54ba8edeb6cb667d8b3134
+39c3e83f6e72e72633ede2d65d6d67b3a8233b30 refs/tags/2.3.0
+^5f8565d255177a64c7adea0baf24ec587dac8ca2
+6d826c518392f59d8d512b49ada84ce415514eea refs/tags/2.4.0
+^239cd1b1129ba7ad81b646625175dbd77ab51f7a
+b2005c7da67f0282431f85a0ad948987b0e904da refs/tags/v2.7.0
