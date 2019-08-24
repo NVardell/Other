@@ -1,0 +1,83 @@
+csv:
+#  base: /Users/sml/git/cr-csv-dev
+  base: /Users/sml/git/cr-csv/assets
+  path:
+    alliance_badges: ./csv_logic/alliance_badges.csv
+    area_effect_objects: ./csv_logic/area_effect_objects.csv
+    arenas: ./csv_logic/arenas.csv
+    buildings: ./csv_logic/buildings.csv
+    challenges: ./csv_logic/survival_modes.csv
+    characters: ./csv_logic/characters.csv
+    chest_order: ./csv_logic/chest_order.csv
+    clan_chest: ./csv_logic/globals.csv
+    game_modes: ./csv_logic/game_modes.csv
+    predefined_decks: ./csv_logic/predefined_decks.csv
+    projectiles: ./csv_logic/projectiles.csv
+    rarities: ./csv_logic/rarities.csv
+    regions: ./csv_logic/regions.csv
+    spells_characters: ./csv_logic/spells_characters.csv
+    texts: ./csv_client/texts.csv
+    texts_patch: ./csv_client/texts_patch.csv
+    tournaments: ./csv_logic/tournament_tiers.csv
+    treasure_chests: ./csv_logic/treasure_chests.csv
+
+json:
+  base: ./json/
+  alliance_badges: ./alliance_badges.json
+  arenas: ./arenas.json
+  buildings: ./buildings.json
+  cards: ./cards.json
+  cards_stats: ./cards_stats.json
+  challenges: ./challenges.json
+  chest_order: ./chest_order.json
+  clan_chest: ./clan_chest.json
+  game_modes: ./game_modes.json
+  predefined_decks: ./predefined_decks.json
+  rarities: ./rarities.json
+  regions: ./regions.json
+  tournaments: ./tournaments.json
+  treasure_chests: ./treasure_chests.json
+
+cards:
+  - type: Troop
+    sckey: 260000{0:02d}
+    csv: ./csv_logic/spells_characters.csv
+  - type: Building
+    sckey: 270000{0:02d}
+    csv: ./csv_logic/spells_buildings.csv
+  - type: Spell
+    sckey: 280000{0:02d}
+    csv: ./csv_logic/spells_other.csv
+
+scid:
+  resources: 500000{0:02d}
+  badge: 160000{0:02d}
+  chest_type: 190000{0:02d}
+  troops: 260000{0:02d}
+  buildinggs: 270000{0:02d}
+  spells: 280000{0:02d}
+  arena: 540000{0:02d}
+  region: 570000{0:02d}
+  achievements: 600000{0:02d}
+  challenge: 650000{0:02d}
+  game_modes: 72000{0:03d}
+  skin: 830000{0:02d}
+
+
+quests:
+  base: ./lib/cr-csv/assets/csv_logic/quests
+  types:
+    - type: attack
+      csv: attack.csv
+    - type: cast
+      csv: cast.csv
+    - type: collect
+      csv: collect.csv
+    - type: daily
+      csv: daily.csv
+    - type: donate
+      csv: donate.csv
+    - type: play
+      csv: play.csv
+    - type: pve
+      csv: pve.csv

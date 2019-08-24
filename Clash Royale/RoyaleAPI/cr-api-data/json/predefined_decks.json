@@ -1,0 +1,3511 @@
+[
+    {
+        "name": "BasicDeck1",
+        "spells": [],
+        "spell_level": 1
+    },
+    {
+        "name": "BasicDeck2",
+        "spells": [
+            "goblins",
+            "knight"
+        ],
+        "spell_level": [
+            1,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck3",
+        "spells": [
+            "knight",
+            "goblins",
+            "skeletons"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck4",
+        "spells": [
+            "knight",
+            "goblins",
+            "skeletons",
+            "archers"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck5",
+        "spells": [
+            "knight",
+            "goblins",
+            "skeletons",
+            "archers",
+            "bomber"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck6",
+        "spells": [
+            "knight",
+            "goblins",
+            "skeletons",
+            "archers",
+            "bomber",
+            "arrows"
+        ],
+        "spell_level": [
+            1,
+            2,
+            1,
+            2,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck7",
+        "spells": [
+            "knight",
+            "goblins",
+            "skeletons",
+            "archers",
+            "bomber",
+            "arrows",
+            "fireball",
+            "giant"
+        ],
+        "spell_level": [
+            1,
+            2,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck8",
+        "spells": [
+            "knight",
+            "archers",
+            "goblins",
+            "spear-goblins",
+            "giant",
+            "goblin-hut",
+            "fireball",
+            "baby-dragon"
+        ],
+        "spell_level": [
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck9",
+        "spells": [
+            "knight",
+            "archers",
+            "goblins",
+            "spear-goblins",
+            "giant",
+            "goblin-hut",
+            "arrows",
+            "skeleton-army"
+        ],
+        "spell_level": [
+            2,
+            2,
+            2,
+            3,
+            1,
+            1,
+            3,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck10",
+        "spells": [
+            "knight",
+            "archers",
+            "goblins",
+            "skeletons",
+            "prince",
+            "spear-goblins",
+            "arrows",
+            "fireball"
+        ],
+        "spell_level": [
+            3,
+            3,
+            2,
+            2,
+            1,
+            3,
+            3,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck11",
+        "spells": [
+            "valkyrie",
+            "archers",
+            "witch",
+            "skeletons",
+            "bomber",
+            "minions",
+            "knight",
+            "fireball"
+        ],
+        "spell_level": [
+            1,
+            3,
+            1,
+            3,
+            3,
+            3,
+            3,
+            2
+        ]
+    },
+    {
+        "name": "BasicDeck12",
+        "spells": [
+            "knight",
+            "archers",
+            "goblins",
+            "skeletons",
+            "bomb-tower",
+            "minions",
+            "tombstone",
+            "balloon"
+        ],
+        "spell_level": [
+            3,
+            3,
+            3,
+            4,
+            2,
+            2,
+            2,
+            1
+        ]
+    },
+    {
+        "name": "BasicDeck13",
+        "spells": [
+            "barbarians",
+            "barbarian-hut",
+            "skeleton-army",
+            "skeletons",
+            "witch",
+            "fireball",
+            "cannon",
+            "arrows"
+        ],
+        "spell_level": [
+            3,
+            1,
+            2,
+            4,
+            1,
+            2,
+            1,
+            4
+        ]
+    },
+    {
+        "name": "BasicDeck14",
+        "spells": [
+            "musketeer",
+            "bomber",
+            "barbarian-hut",
+            "goblins",
+            "giant",
+            "balloon",
+            "archers",
+            "fireball"
+        ],
+        "spell_level": [
+            2,
+            4,
+            2,
+            4,
+            2,
+            2,
+            4,
+            2
+        ]
+    },
+    {
+        "name": "BasicDeck15",
+        "spells": [
+            "musketeer",
+            "bomber",
+            "mini-pekka",
+            "goblins",
+            "prince",
+            "balloon",
+            "archers",
+            "fireball"
+        ],
+        "spell_level": [
+            2,
+            5,
+            3,
+            4,
+            1,
+            1,
+            4,
+            4
+        ]
+    },
+    {
+        "name": "BasicDeck16",
+        "spells": [
+            "knight",
+            "archers",
+            "skeleton-army",
+            "goblins",
+            "fireball",
+            "giant",
+            "valkyrie",
+            "mini-pekka"
+        ],
+        "spell_level": [
+            5,
+            5,
+            2,
+            5,
+            3,
+            2,
+            3,
+            3
+        ]
+    },
+    {
+        "name": "BasicDeck17",
+        "spells": [
+            "hog-rider",
+            "inferno-tower",
+            "cannon",
+            "knight",
+            "spear-goblins",
+            "prince",
+            "archers",
+            "fireball"
+        ],
+        "spell_level": [
+            3,
+            2,
+            6,
+            5,
+            6,
+            2,
+            6,
+            3
+        ]
+    },
+    {
+        "name": "BasicDeck18",
+        "spells": [
+            "witch",
+            "pekka",
+            "goblins",
+            "spear-goblins",
+            "zap",
+            "wizard",
+            "archers",
+            "arrows"
+        ],
+        "spell_level": [
+            2,
+            2,
+            6,
+            6,
+            6,
+            3,
+            6,
+            6
+        ]
+    },
+    {
+        "name": "BasicDeck19",
+        "spells": [
+            "musketeer",
+            "minion-horde",
+            "rocket",
+            "goblins",
+            "giant",
+            "wizard",
+            "archers",
+            "arrows"
+        ],
+        "spell_level": [
+            4,
+            6,
+            4,
+            6,
+            4,
+            3,
+            7,
+            6
+        ]
+    },
+    {
+        "name": "BasicDeck20",
+        "spells": [
+            "barbarian-hut",
+            "tombstone",
+            "bomb-tower",
+            "goblins",
+            "giant",
+            "spear-goblins",
+            "prince",
+            "fireball"
+        ],
+        "spell_level": [
+            4,
+            3,
+            4,
+            6,
+            4,
+            7,
+            2,
+            4
+        ]
+    },
+    {
+        "name": "BasicDeck21",
+        "spells": [
+            "goblins",
+            "spear-goblins",
+            "skeleton-army",
+            "skeletons",
+            "knight",
+            "witch",
+            "fireball",
+            "arrows"
+        ],
+        "spell_level": [
+            6,
+            7,
+            2,
+            7,
+            6,
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "BasicDeck22",
+        "spells": [
+            "witch",
+            "wizard",
+            "giant",
+            "barbarians",
+            "fireball",
+            "hog-rider",
+            "goblin-barrel",
+            "minion-horde",
+            "prince"
+        ],
+        "spell_level": [
+            2,
+            4,
+            4,
+            7,
+            4,
+            4,
+            2,
+            6,
+            2
+        ]
+    },
+    {
+        "name": "BasicDeck23",
+        "spells": [
+            "lightning",
+            "hog-rider",
+            "mini-pekka",
+            "spear-goblins",
+            "arrows",
+            "baby-dragon",
+            "skeleton-army",
+            "skeletons"
+        ],
+        "spell_level": [
+            2,
+            4,
+            4,
+            7,
+            7,
+            2,
+            2,
+            7
+        ]
+    },
+    {
+        "name": "BasicDeck24",
+        "spells": [
+            "knight",
+            "goblins",
+            "bomber",
+            "spear-goblins",
+            "arrows",
+            "hog-rider",
+            "minion-horde",
+            "prince"
+        ],
+        "spell_level": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            4,
+            7,
+            2
+        ]
+    },
+    {
+        "name": "BasicDeck25",
+        "spells": [
+            "minions",
+            "minion-horde",
+            "balloon",
+            "baby-dragon",
+            "arrows",
+            "fireball",
+            "zap",
+            "goblin-barrel"
+        ],
+        "spell_level": [
+            7,
+            7,
+            2,
+            2,
+            7,
+            4,
+            7,
+            2
+        ]
+    },
+    {
+        "name": "BasicDeck26",
+        "spells": [
+            "giant",
+            "hog-rider",
+            "balloon",
+            "spear-goblins",
+            "goblins",
+            "baby-dragon",
+            "fireball",
+            "arrows"
+        ],
+        "spell_level": [
+            5,
+            4,
+            2,
+            7,
+            7,
+            2,
+            4,
+            7
+        ]
+    },
+    {
+        "name": "BasicDeck27",
+        "spells": [
+            "lightning",
+            "prince",
+            "musketeer",
+            "mini-pekka",
+            "knight",
+            "archers",
+            "spear-goblins",
+            "skeleton-army"
+        ],
+        "spell_level": [
+            2,
+            3,
+            5,
+            4,
+            7,
+            7,
+            7,
+            3
+        ]
+    },
+    {
+        "name": "BasicDeck28",
+        "spells": [
+            "skeletons",
+            "goblins",
+            "spear-goblins",
+            "archers",
+            "knight",
+            "minions",
+            "bomber",
+            "zap"
+        ],
+        "spell_level": [
+            8,
+            7,
+            8,
+            7,
+            8,
+            7,
+            8,
+            7
+        ]
+    },
+    {
+        "name": "BasicDeck29",
+        "spells": [
+            "hog-rider",
+            "balloon",
+            "giant",
+            "goblins",
+            "fireball",
+            "spear-goblins",
+            "ice-spirit",
+            "rocket"
+        ],
+        "spell_level": [
+            5,
+            3,
+            5,
+            8,
+            5,
+            8,
+            8,
+            4
+        ]
+    },
+    {
+        "name": "BasicDeck30",
+        "spells": [
+            "knight",
+            "goblins",
+            "bomber",
+            "spear-goblins",
+            "arrows",
+            "hog-rider",
+            "minion-horde",
+            "prince"
+        ],
+        "spell_level": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            5,
+            8,
+            3
+        ]
+    },
+    {
+        "name": "BasicDeck31",
+        "spells": [
+            "goblins",
+            "spear-goblins",
+            "skeletons",
+            "baby-dragon",
+            "giant",
+            "witch",
+            "goblin-barrel",
+            "fireball"
+        ],
+        "spell_level": [
+            8,
+            8,
+            8,
+            3,
+            5,
+            3,
+            2,
+            5
+        ]
+    },
+    {
+        "name": "BasicDeck32",
+        "spells": [
+            "pekka",
+            "spear-goblins",
+            "skeleton-army",
+            "goblins",
+            "goblin-barrel",
+            "minions",
+            "minion-horde",
+            "baby-dragon"
+        ],
+        "spell_level": [
+            2,
+            8,
+            3,
+            8,
+            2,
+            8,
+            8,
+            3
+        ]
+    },
+    {
+        "name": "BasicDeck33",
+        "spells": [
+            "lightning",
+            "mini-pekka",
+            "barbarians",
+            "wizard",
+            "zap",
+            "baby-dragon",
+            "pekka",
+            "goblins"
+        ],
+        "spell_level": [
+            2,
+            5,
+            8,
+            5,
+            8,
+            3,
+            2,
+            8
+        ]
+    },
+    {
+        "name": "BasicDeck34",
+        "spells": [
+            "ice-spirit",
+            "ice-golem",
+            "freeze",
+            "ice-wizard",
+            "bowler",
+            "spear-goblins",
+            "lumberjack",
+            "mirror"
+        ],
+        "spell_level": [
+            8,
+            5,
+            3,
+            1,
+            3,
+            8,
+            1,
+            3
+        ]
+    },
+    {
+        "name": "BasicDeck35",
+        "spells": [
+            "spear-goblins",
+            "archers",
+            "minion-horde",
+            "arrows",
+            "barbarians",
+            "giant",
+            "hog-rider",
+            "elixir-collector"
+        ],
+        "spell_level": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            6,
+            6,
+            6
+        ]
+    },
+    {
+        "name": "BasicDeck36",
+        "spells": [
+            "giant-skeleton",
+            "graveyard",
+            "bowler",
+            "hog-rider",
+            "spear-goblins",
+            "arrows",
+            "fireball",
+            "archers"
+        ],
+        "spell_level": [
+            4,
+            1,
+            4,
+            7,
+            9,
+            9,
+            9,
+            9
+        ]
+    },
+    {
+        "name": "BasicDeck37",
+        "spells": [
+            "golem",
+            "giant",
+            "balloon",
+            "three-musketeers",
+            "wizard",
+            "fire-spirits",
+            "guards",
+            "valkyrie"
+        ],
+        "spell_level": [
+            4,
+            7,
+            4,
+            7,
+            8,
+            9,
+            4,
+            8
+        ]
+    },
+    {
+        "name": "BasicDeck38",
+        "spells": [
+            "prince",
+            "knight",
+            "pekka",
+            "goblins",
+            "princess",
+            "mini-pekka",
+            "arrows",
+            "dark-prince"
+        ],
+        "spell_level": [
+            5,
+            10,
+            5,
+            10,
+            2,
+            8,
+            10,
+            5
+        ]
+    },
+    {
+        "name": "BasicDeck39",
+        "spells": [
+            "goblin-barrel",
+            "golem",
+            "sparky",
+            "spear-goblins",
+            "ice-golem",
+            "rocket",
+            "hog-rider",
+            "archers"
+        ],
+        "spell_level": [
+            6,
+            6,
+            3,
+            11,
+            9,
+            9,
+            9,
+            11
+        ]
+    },
+    {
+        "name": "BasicDeck40",
+        "spells": [
+            "balloon",
+            "guards",
+            "minions",
+            "bomber",
+            "goblins",
+            "spear-goblins",
+            "archers",
+            "wizard"
+        ],
+        "spell_level": [
+            7,
+            6,
+            11,
+            11,
+            11,
+            11,
+            10,
+            9
+        ]
+    },
+    {
+        "name": "BasicDeck41",
+        "spells": [
+            "royal-giant",
+            "arrows",
+            "barbarians",
+            "miner",
+            "fire-spirits",
+            "spear-goblins",
+            "baby-dragon",
+            "ice-spirit"
+        ],
+        "spell_level": [
+            11,
+            11,
+            11,
+            3,
+            11,
+            11,
+            6,
+            11
+        ]
+    },
+    {
+        "name": "BasicDeck42",
+        "spells": [
+            "elite-barbarians",
+            "clone",
+            "hog-rider",
+            "minions",
+            "battle-ram",
+            "dart-goblin",
+            "goblin-gang",
+            "ice-golem"
+        ],
+        "spell_level": [
+            11,
+            6,
+            10,
+            12,
+            10,
+            10,
+            11,
+            9
+        ]
+    },
+    {
+        "name": "BasicDeck43",
+        "spells": [
+            "electro-wizard",
+            "mega-minion",
+            "hog-rider",
+            "fireball",
+            "ice-spirit",
+            "tornado",
+            "wizard",
+            "goblins"
+        ],
+        "spell_level": [
+            3,
+            9,
+            10,
+            9,
+            11,
+            6,
+            11,
+            12
+        ]
+    },
+    {
+        "name": "BasicDeck44",
+        "spells": [
+            "rocket",
+            "goblin-gang",
+            "ice-spirit",
+            "royal-giant",
+            "battle-ram",
+            "archers",
+            "balloon",
+            "minions"
+        ],
+        "spell_level": [
+            10,
+            11,
+            11,
+            12,
+            9,
+            11,
+            6,
+            12
+        ]
+    },
+    {
+        "name": "BasicDeck45",
+        "spells": [
+            "executioner",
+            "tornado",
+            "the-log",
+            "princess",
+            "wizard",
+            "fireball",
+            "sparky",
+            "ice-golem"
+        ],
+        "spell_level": [
+            6,
+            7,
+            3,
+            3,
+            10,
+            10,
+            3,
+            11
+        ]
+    },
+    {
+        "name": "BasicDeck46",
+        "spells": [
+            "graveyard",
+            "dart-goblin",
+            "knight",
+            "musketeer",
+            "archers",
+            "spear-goblins",
+            "mega-minion",
+            "bowler"
+        ],
+        "spell_level": [
+            3,
+            11,
+            12,
+            10,
+            11,
+            11,
+            10,
+            7
+        ]
+    },
+    {
+        "name": "BasicDeck47",
+        "spells": [
+            "night-witch",
+            "hunter",
+            "baby-dragon",
+            "executioner",
+            "sparky",
+            "mega-knight",
+            "dark-prince",
+            "royal-ghost"
+        ],
+        "spell_level": [
+            3,
+            6,
+            7,
+            6,
+            3,
+            3,
+            6,
+            3
+        ]
+    },
+    {
+        "name": "BasicDeck48",
+        "spells": [
+            "cannon-cart",
+            "flying-machine",
+            "baby-dragon",
+            "inferno-dragon",
+            "rage",
+            "fireball",
+            "tombstone",
+            "rascals"
+        ],
+        "spell_level": [
+            6,
+            10,
+            7,
+            3,
+            7,
+            10,
+            10,
+            12
+        ]
+    },
+    {
+        "name": "BasicDeck49",
+        "spells": [
+            "rascals",
+            "bandit",
+            "magic-archer",
+            "dart-goblin",
+            "bowler",
+            "arrows",
+            "wizard",
+            "skeletons"
+        ],
+        "spell_level": [
+            13,
+            3,
+            3,
+            10,
+            7,
+            12,
+            11,
+            12
+        ]
+    },
+    {
+        "name": "BasicDeck50",
+        "spells": [
+            "tornado",
+            "mega-knight",
+            "royal-ghost",
+            "battle-ram",
+            "sparky",
+            "executioner",
+            "barbarian-barrel",
+            "zappies"
+        ],
+        "spell_level": [
+            7,
+            3,
+            3,
+            10,
+            3,
+            7,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "BasicDeck51",
+        "spells": [
+            "poison",
+            "bats",
+            "balloon",
+            "rage",
+            "executioner",
+            "spear-goblins",
+            "witch",
+            "baby-dragon"
+        ],
+        "spell_level": [
+            7,
+            12,
+            7,
+            7,
+            7,
+            12,
+            7,
+            7
+        ]
+    },
+    {
+        "name": "BasicDeck52",
+        "spells": [
+            "princess",
+            "miner",
+            "ice-wizard",
+            "inferno-dragon",
+            "lumberjack",
+            "lava-hound",
+            "sparky",
+            "the-log"
+        ],
+        "spell_level": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ]
+    },
+    {
+        "name": "BasicDeck53",
+        "spells": [
+            "magic-archer",
+            "night-witch",
+            "bandit",
+            "mega-knight",
+            "royal-ghost",
+            "electro-wizard",
+            "graveyard",
+            "the-log"
+        ],
+        "spell_level": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ]
+    },
+    {
+        "name": "BlindDeck1",
+        "random_spell_sets": [
+            "SetRandomRangedSupport",
+            "SetRandomDirectDamageSpell",
+            "SetRandomCheapUnit",
+            "SetRandomAttackCard1",
+            "SetRandomAttackCard2",
+            "SetRandom2to3Any",
+            "SetRandom3to4Unit",
+            "SetRandom3to5Any"
+        ],
+        "tid": "TID_BLIND_DECK_RANDOM",
+        "name_en": "Random Mix"
+    },
+    {
+        "name": "BlindDeck2",
+        "random_spell_sets": [
+            "Draft_AntiAir",
+            "Draft_DamageSpell",
+            "Draft_CheapDudes",
+            "Draft_Aggressive",
+            "Draft_3costUnit",
+            "Draft_4costUnit",
+            "Draft_5costUnit",
+            "SetRandomAll"
+        ],
+        "tid": "TID_BLIND_DECK_RANDOM",
+        "name_en": "Random Mix"
+    },
+    {
+        "name": "FixedDeck1",
+        "spells": [
+            "fireball",
+            "bowler",
+            "x-bow",
+            "zap",
+            "princess",
+            "mini-pekka"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "random_spell_sets": [
+            "SetFixedSpirit",
+            "SetFixedSwarm"
+        ],
+        "tid": "TID_BLIND_DECK1",
+        "name_en": "X-Bowler"
+    },
+    {
+        "name": "FixedDeck2",
+        "spells": [
+            "hog-rider",
+            "freeze",
+            "ice-wizard",
+            "poison",
+            "knight",
+            "spear-goblins"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "random_spell_sets": [
+            "SetFixedMidSupport",
+            "SetFixedBuildingDefense"
+        ],
+        "tid": "TID_BLIND_DECK2",
+        "name_en": "The Frozen Hog"
+    },
+    {
+        "name": "FixedDeck3",
+        "spells": [
+            "archers",
+            "witch",
+            "rage",
+            "balloon",
+            "minions",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "random_spell_sets": [
+            "SetFixedTankUnit",
+            "SetFixedSpirit"
+        ],
+        "tid": "TID_BLIND_DECK3",
+        "name_en": "The Raging Balloon"
+    },
+    {
+        "name": "FixedDeck4",
+        "spells": [
+            "miner",
+            "three-musketeers",
+            "knight",
+            "zap",
+            "elixir-collector",
+            "mirror"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "random_spell_sets": [
+            "SetFixedFlyingSupport",
+            "SetFixedSpirit"
+        ],
+        "tid": "TID_BLIND_DECK4",
+        "name_en": "Mirror, Miner, Muskies"
+    },
+    {
+        "name": "FixedDeck5",
+        "spells": [
+            "golem",
+            "the-log",
+            "elixir-collector",
+            "archers",
+            "musketeer",
+            "minion-horde"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "random_spell_sets": [
+            "SetFixedSpirit",
+            "SetFixedDamageSpellMid"
+        ],
+        "tid": "TID_BLIND_DECK5",
+        "name_en": "Go-Log-Go"
+    },
+    {
+        "name": "FixedDeck6",
+        "spells": [
+            "lumberjack",
+            "dark-prince",
+            "lightning",
+            "spear-goblins",
+            "archers",
+            "skeleton-army"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "random_spell_sets": [
+            "SetFixedBuildingHut",
+            "SetFixedCheapFlying"
+        ],
+        "tid": "TID_BLIND_DECK6",
+        "name_en": "Dark Lighting"
+    },
+    {
+        "name": "MirrorDeck",
+        "spells": [],
+        "spell_level": 1,
+        "random_spell_sets": [
+            "SetMirror_Aggro",
+            "SetMirror_Aggro",
+            "SetMirror_Counters",
+            "SetMirror_Troops",
+            "SetMirror_NonBuilding",
+            "SetMirror_NonBuilding",
+            "MirrorSet"
+        ],
+        "tid": "TID_MIRROR_DECK",
+        "name_en": "Mirror Deck"
+    },
+    {
+        "name": "MirrorDeck2v2",
+        "spells": [],
+        "spell_level": 1,
+        "random_spell_sets": [
+            "SetMirror_Aggro",
+            "SetMirror_Aggro",
+            "SetMirror_Counters",
+            "SetMirror_Troops",
+            "SetMirror_NonBuilding",
+            "SetMirror_NonBuilding",
+            "MirrorSet"
+        ],
+        "tid": "TID_MIRROR_DECK",
+        "name_en": "Mirror Deck"
+    },
+    {
+        "name": "MirrorDeck_H",
+        "spells": [],
+        "spell_level": 1,
+        "random_spell_sets": [
+            "SetMirror_Aggro_H",
+            "SetMirror_Aggro_H",
+            "SetMirror_Counters_H",
+            "SetMirror_Troops_H",
+            "SetMirror_NonBuilding_H",
+            "SetMirror_NonBuilding_H",
+            "SetMirror_H"
+        ],
+        "tid": "TID_MIRROR_DECK",
+        "name_en": "Mirror Deck"
+    },
+    {
+        "name": "MirrorDeck2v2_H",
+        "spells": [],
+        "spell_level": 1,
+        "random_spell_sets": [
+            "SetMirror_Aggro_H",
+            "SetMirror_Aggro_H",
+            "SetMirror_Counters_H",
+            "SetMirror_Troops_H",
+            "SetMirror_NonBuilding_H",
+            "SetMirror_NonBuilding_H",
+            "SetMirror_H"
+        ],
+        "tid": "TID_MIRROR_DECK",
+        "name_en": "Mirror Deck"
+    },
+    {
+        "name": "KC_VitaminC",
+        "spells": [
+            "valkyrie",
+            "ice-spirit",
+            "three-musketeers",
+            "arrows",
+            "miner",
+            "ice-golem",
+            "night-witch",
+            "cannon-cart"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_KC_1",
+        "name_en": "Vitamin C"
+    },
+    {
+        "name": "KC_VivaLaSparky",
+        "spells": [
+            "zap",
+            "goblin-barrel",
+            "rocket",
+            "goblins",
+            "mega-minion",
+            "ice-golem",
+            "hog-rider",
+            "sparky"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_KC_2",
+        "name_en": "Viva la Sparky"
+    },
+    {
+        "name": "KC_TowerTornados",
+        "spells": [
+            "tombstone",
+            "hog-rider",
+            "ice-wizard",
+            "skeletons",
+            "mega-minion",
+            "rocket",
+            "tornado",
+            "the-log"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_KC_3",
+        "name_en": "Tower Tornados"
+    },
+    {
+        "name": "KC_MetaMaulers",
+        "spells": [
+            "zap",
+            "hog-rider",
+            "mega-minion",
+            "guards",
+            "lumberjack",
+            "baby-dragon",
+            "mini-pekka",
+            "fireball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_KC_4",
+        "name_en": "Meta Maulers"
+    },
+    {
+        "name": "KC_MisplacedRockets",
+        "spells": [
+            "furnace",
+            "goblin-gang",
+            "the-log",
+            "flying-machine",
+            "goblin-barrel",
+            "rocket",
+            "mirror",
+            "bowler"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_KC_5",
+        "name_en": "Misplaced Rockets"
+    },
+    {
+        "name": "KC_SaltyGoblins",
+        "spells": [
+            "cannon-cart",
+            "bats",
+            "poison",
+            "spear-goblins",
+            "goblins",
+            "inferno-dragon",
+            "zap",
+            "miner"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_KC_6",
+        "name_en": "Salty Goblins"
+    },
+    {
+        "name": "KC_SparkyMasters",
+        "spells": [
+            "sparky",
+            "zap",
+            "goblin-gang",
+            "electro-wizard",
+            "pekka",
+            "poison",
+            "bats",
+            "miner"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_KC_7",
+        "name_en": "Sparky Masters"
+    },
+    {
+        "name": "KC_TheUltraNytes",
+        "spells": [
+            "poison",
+            "ice-spirit",
+            "baby-dragon",
+            "zap",
+            "mega-knight",
+            "night-witch",
+            "mega-minion",
+            "elixir-collector"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_KC_8",
+        "name_en": "The Ultra Nytes"
+    },
+    {
+        "name": "YTCHA_Trymacs",
+        "spells": [
+            "ice-golem",
+            "bowler",
+            "baby-dragon",
+            "ice-wizard",
+            "guards",
+            "graveyard",
+            "tornado",
+            "poison"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_1",
+        "name_en": "Trymacs's deck"
+    },
+    {
+        "name": "YTCHA_kiokio",
+        "spells": [
+            "giant",
+            "sparky",
+            "zap",
+            "ice-wizard",
+            "skeleton-army",
+            "goblin-barrel",
+            "minions",
+            "minion-horde"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_2",
+        "name_en": "kiokio's deck"
+    },
+    {
+        "name": "YTCHA_Alvaro845",
+        "spells": [
+            "tornado",
+            "ice-wizard",
+            "giant-skeleton",
+            "graveyard",
+            "goblin-hut",
+            "dark-prince",
+            "poison",
+            "mega-minion"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_3",
+        "name_en": "Alvaro845's deck"
+    },
+    {
+        "name": "YTCHA_ClashWithAsh",
+        "spells": [
+            "elixir-collector",
+            "three-musketeers",
+            "ice-golem",
+            "goblin-gang",
+            "minion-horde",
+            "miner",
+            "zap",
+            "lumberjack"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_4",
+        "name_en": "Clash with Ash's deck"
+    },
+    {
+        "name": "YTCHA_Grax",
+        "spells": [
+            "inferno-tower",
+            "fireball",
+            "hog-rider",
+            "archers",
+            "knight",
+            "bats",
+            "zap",
+            "ice-spirit"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_5",
+        "name_en": "Grax's deck"
+    },
+    {
+        "name": "YTCHA_Godspeed",
+        "spells": [
+            "golem",
+            "lumberjack",
+            "night-witch",
+            "elixir-collector",
+            "zap",
+            "guards",
+            "mega-minion",
+            "poison"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_6",
+        "name_en": "Godspeed's deck"
+    },
+    {
+        "name": "YTCHA_Trapa",
+        "spells": [
+            "miner",
+            "lava-hound",
+            "furnace",
+            "bats",
+            "baby-dragon",
+            "skeleton-barrel",
+            "minions",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_7",
+        "name_en": "Trapa's deck"
+    },
+    {
+        "name": "YTCHA_JUNE",
+        "spells": [
+            "ice-golem",
+            "mega-minion",
+            "tornado",
+            "poison",
+            "cannon-cart",
+            "ice-wizard",
+            "royal-ghost",
+            "graveyard"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_8",
+        "name_en": "JUNE's deck"
+    },
+    {
+        "name": "YTCHA_Flakespower",
+        "spells": [
+            "golem",
+            "night-witch",
+            "lumberjack",
+            "goblin-hut",
+            "flying-machine",
+            "zap",
+            "poison",
+            "mega-minion"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_9",
+        "name_en": "Flakes Power's deck"
+    },
+    {
+        "name": "YTCHA_Yarn",
+        "spells": [
+            "zap",
+            "zappies",
+            "skeleton-barrel",
+            "goblin-hut",
+            "miner",
+            "royal-ghost",
+            "inferno-dragon",
+            "mega-knight"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_YTCHA_10",
+        "name_en": "Orange Juice's deck"
+    },
+    {
+        "name": "CCGS_Berin",
+        "spells": [
+            "skeletons",
+            "prince",
+            "ice-golem",
+            "hog-rider",
+            "tornado",
+            "executioner",
+            "lightning",
+            "the-log"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_1",
+        "name_en": "Berin's deck"
+    },
+    {
+        "name": "CCGS_ElecTr1fy",
+        "spells": [
+            "knight",
+            "goblins",
+            "musketeer",
+            "hog-rider",
+            "tornado",
+            "zap",
+            "fireball",
+            "ice-spirit"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_2",
+        "name_en": "ElecTr1fy's deck"
+    },
+    {
+        "name": "CCGS_Fuchi",
+        "spells": [
+            "hog-rider",
+            "ice-golem",
+            "ice-spirit",
+            "zap",
+            "fireball",
+            "inferno-dragon",
+            "guards",
+            "minions"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_3",
+        "name_en": "Fuchi's deck"
+    },
+    {
+        "name": "CCGS_AdrianPiedra",
+        "spells": [
+            "poison",
+            "mega-minion",
+            "electro-wizard",
+            "ice-spirit",
+            "battle-ram",
+            "dark-prince",
+            "zap",
+            "pekka"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_4",
+        "name_en": "Adrian Piedra's deck"
+    },
+    {
+        "name": "CCGS_YaoYao",
+        "spells": [
+            "minions",
+            "electro-wizard",
+            "poison",
+            "zap",
+            "battle-ram",
+            "pekka",
+            "dark-prince",
+            "bandit"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_5",
+        "name_en": "YaoYao's deck"
+    },
+    {
+        "name": "CCGS_Amaterasu",
+        "spells": [
+            "golem",
+            "zap",
+            "inferno-dragon",
+            "tornado",
+            "night-witch",
+            "fireball",
+            "baby-dragon",
+            "guards"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_6",
+        "name_en": "Amaterasu's deck"
+    },
+    {
+        "name": "CCGS_X-BowMaster",
+        "spells": [
+            "ice-golem",
+            "fireball",
+            "archers",
+            "ice-spirit",
+            "x-bow",
+            "the-log",
+            "mega-minion",
+            "tesla"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_7",
+        "name_en": "X-Bow Master's deck"
+    },
+    {
+        "name": "CCGS_Musicmaster",
+        "spells": [
+            "elixir-collector",
+            "tesla",
+            "musketeer",
+            "skeletons",
+            "ice-spirit",
+            "the-log",
+            "ice-golem",
+            "x-bow"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_8",
+        "name_en": "Musicmaster's deck"
+    },
+    {
+        "name": "CCGS_Coltonw83",
+        "spells": [
+            "goblin-barrel",
+            "prince",
+            "princess",
+            "ice-spirit",
+            "goblin-gang",
+            "the-log",
+            "tornado",
+            "magic-archer"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_9",
+        "name_en": "Coltonw83's deck"
+    },
+    {
+        "name": "CCGS_Loupanji",
+        "spells": [
+            "giant",
+            "poison",
+            "magic-archer",
+            "ice-spirit",
+            "mega-minion",
+            "zap",
+            "prince",
+            "royal-ghost"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_10",
+        "name_en": "Loupanji's deck"
+    },
+    {
+        "name": "CCGS_Sergioramos",
+        "spells": [
+            "dark-prince",
+            "ice-golem",
+            "royal-ghost",
+            "magic-archer",
+            "zap",
+            "inferno-dragon",
+            "battle-ram",
+            "fireball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_CCGS_11",
+        "name_en": "Sergioramos's deck"
+    },
+    {
+        "name": "Blind_Reddit_1",
+        "spells": [
+            "balloon",
+            "miner",
+            "ice-golem",
+            "inferno-dragon",
+            "princess",
+            "guards",
+            "tornado",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_REDDIT_1",
+        "name_en": "Balloon Parade"
+    },
+    {
+        "name": "Blind_Reddit_2",
+        "spells": [
+            "bandit",
+            "magic-archer",
+            "hunter",
+            "bats",
+            "tornado",
+            "the-log",
+            "battle-ram",
+            "ice-spirit"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_REDDIT_2",
+        "name_en": "Woodland Warriors"
+    },
+    {
+        "name": "Blind_Reddit_3",
+        "spells": [
+            "royal-ghost",
+            "battle-ram",
+            "fireball",
+            "zap",
+            "magic-archer",
+            "dark-prince",
+            "inferno-dragon",
+            "ice-golem"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_REDDIT_3",
+        "name_en": "Ghostly Bridge Spam"
+    },
+    {
+        "name": "Blind_Reddit_4",
+        "spells": [
+            "miner",
+            "poison",
+            "magic-archer",
+            "tesla",
+            "the-log",
+            "valkyrie",
+            "zap",
+            "electro-wizard"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_REDDIT_4",
+        "name_en": "Miner-magic"
+    },
+    {
+        "name": "Blind_Reddit_5",
+        "spells": [
+            "balloon",
+            "miner",
+            "poison",
+            "zap",
+            "pekka",
+            "electro-wizard",
+            "ice-spirit",
+            "bandit"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_REDDIT_5",
+        "name_en": "Mineroon"
+    },
+    {
+        "name": "Blind_Reddit_6",
+        "spells": [
+            "magic-archer",
+            "poison",
+            "the-log",
+            "miner",
+            "bandit",
+            "ice-golem",
+            "ice-spirit",
+            "inferno-tower"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_REDDIT_6",
+        "name_en": "Magical Miner Poison"
+    },
+    {
+        "name": "Blind_Reddit_7",
+        "spells": [
+            "giant",
+            "dark-prince",
+            "prince",
+            "magic-archer",
+            "goblins",
+            "archers",
+            "fireball",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_REDDIT_7",
+        "name_en": "Magic Double Prince"
+    },
+    {
+        "name": "Blind_Reddit_8",
+        "spells": [
+            "battle-ram",
+            "magic-archer",
+            "zap",
+            "ice-golem",
+            "hunter",
+            "tornado",
+            "dark-prince",
+            "zappies"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_REDDIT_8",
+        "name_en": "Dank Magical Ram"
+    },
+    {
+        "name": "Blind_Goblin_1",
+        "spells": [
+            "dart-goblin",
+            "ice-spirit",
+            "balloon",
+            "goblins",
+            "royal-ghost",
+            "goblin-gang",
+            "inferno-tower",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_GOBLIN_1",
+        "name_en": "Ghosts 'n Goblins"
+    },
+    {
+        "name": "Blind_Goblin_2",
+        "spells": [
+            "goblin-gang",
+            "spear-goblins",
+            "goblin-barrel",
+            "goblins",
+            "dark-prince",
+            "archers",
+            "arrows",
+            "tornado"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_GOBLIN_2",
+        "name_en": "Gobnado"
+    },
+    {
+        "name": "Blind_Goblin_3",
+        "spells": [
+            "goblins",
+            "dark-prince",
+            "royal-giant",
+            "princess",
+            "dart-goblin",
+            "goblin-gang",
+            "fireball",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_GOBLIN_3",
+        "name_en": "Downton Gobbey"
+    },
+    {
+        "name": "Blind_Goblin_4",
+        "spells": [
+            "spear-goblins",
+            "goblins",
+            "magic-archer",
+            "golem",
+            "executioner",
+            "goblin-hut",
+            "zap",
+            "fireball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_GOBLIN_4",
+        "name_en": "Gobsmacked"
+    },
+    {
+        "name": "Blind_Goblin_5",
+        "spells": [
+            "dart-goblin",
+            "goblins",
+            "skeleton-barrel",
+            "goblin-barrel",
+            "goblin-gang",
+            "barbarian-barrel",
+            "electro-wizard",
+            "knight"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_GOBLIN_5",
+        "name_en": "Barrels on Barrels"
+    },
+    {
+        "name": "Blind_Goblin_6",
+        "spells": [
+            "goblins",
+            "three-musketeers",
+            "miner",
+            "goblin-barrel",
+            "ice-golem",
+            "goblin-gang",
+            "dart-goblin",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_GOBLIN_6",
+        "name_en": "3 Gobsketeers"
+    },
+    {
+        "name": "Blind_Goblin_7",
+        "spells": [
+            "giant",
+            "goblin-gang",
+            "dart-goblin",
+            "goblin-hut",
+            "bowler",
+            "goblins",
+            "barbarian-barrel",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_GOBLIN_7",
+        "name_en": "Gobdown"
+    },
+    {
+        "name": "Blind_Goblin_8",
+        "spells": [
+            "goblin-gang",
+            "goblins",
+            "spear-goblins",
+            "dart-goblin",
+            "goblin-hut",
+            "goblin-barrel",
+            "miner",
+            "arrows"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_BLIND_DECK_GOBLIN_8",
+        "name_en": "Mined the Bait"
+    },
+    {
+        "name": "Blind_Classic_Giant",
+        "spells": [
+            "giant",
+            "battle-ram",
+            "minion-horde",
+            "goblin-gang",
+            "three-musketeers",
+            "elixir-collector",
+            "bats",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC1_GIANT",
+        "name_en": "Giant Muskets"
+    },
+    {
+        "name": "Blind_Classic_Golem",
+        "spells": [
+            "golem",
+            "lumberjack",
+            "night-witch",
+            "baby-dragon",
+            "mega-minion",
+            "zap",
+            "tornado",
+            "lightning"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC2_GOLEM",
+        "name_en": "Golem Beatdown"
+    },
+    {
+        "name": "Blind_Classic_Pekka",
+        "spells": [
+            "pekka",
+            "minions",
+            "battle-ram",
+            "electro-wizard",
+            "dark-prince",
+            "bandit",
+            "zap",
+            "poison"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC3_PEKKA",
+        "name_en": "P.E.K.K.A Ram"
+    },
+    {
+        "name": "Blind_Classic_LavaLoon",
+        "spells": [
+            "lava-hound",
+            "balloon",
+            "mega-minion",
+            "minions",
+            "barbarians",
+            "zap",
+            "fireball",
+            "tombstone"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC4_LAVALOON",
+        "name_en": "LavaLoon"
+    },
+    {
+        "name": "Blind_Classic_LogBait",
+        "spells": [
+            "princess",
+            "goblin-gang",
+            "goblin-barrel",
+            "knight",
+            "ice-spirit",
+            "the-log",
+            "inferno-tower",
+            "rocket"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC5_SPELLBAIT",
+        "name_en": "Spell Bait"
+    },
+    {
+        "name": "Blind_Classic_RoyalGiant",
+        "spells": [
+            "royal-giant",
+            "electro-wizard",
+            "baby-dragon",
+            "mega-minion",
+            "furnace",
+            "guards",
+            "barbarian-barrel",
+            "lightning"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC6_ROYALGIANT",
+        "name_en": "Royal Pain"
+    },
+    {
+        "name": "Blind_Classic_7",
+        "spells": [
+            "three-musketeers",
+            "minion-horde",
+            "goblin-gang",
+            "bandit",
+            "valkyrie",
+            "miner",
+            "giant-snowball",
+            "elixir-collector"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC7_THREEMUSKY",
+        "name_en": "Girl Firepower"
+    },
+    {
+        "name": "Blind_Classic_Xbow",
+        "spells": [
+            "x-bow",
+            "ice-golem",
+            "ice-spirit",
+            "skeletons",
+            "tesla",
+            "archers",
+            "the-log",
+            "fireball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC8_XBOW",
+        "name_en": "Ice Bow"
+    },
+    {
+        "name": "Blind_Classic_Graveyard",
+        "spells": [
+            "graveyard",
+            "cannon-cart",
+            "ice-wizard",
+            "baby-dragon",
+            "goblin-cage",
+            "barbarian-barrel",
+            "tornado",
+            "poison"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC9_GRAVEYARD",
+        "name_en": "Cold Dead Hands"
+    },
+    {
+        "name": "Blind_Classic_GoblinGiant",
+        "spells": [
+            "goblin-giant",
+            "goblin-gang",
+            "spear-goblins",
+            "bats",
+            "sparky",
+            "miner",
+            "minion-horde",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC10_GOBGIANT",
+        "name_en": "Spark the Goblin"
+    },
+    {
+        "name": "Blind_Classic_Mortar",
+        "spells": [
+            "mortar",
+            "miner",
+            "the-log",
+            "fireball",
+            "rascals",
+            "minion-horde",
+            "goblin-gang",
+            "spear-goblins"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC11_MORTAR",
+        "name_en": "Mortar Swarms"
+    },
+    {
+        "name": "Blind_Classic_MegaKnight",
+        "spells": [
+            "mega-knight",
+            "inferno-dragon",
+            "goblin-gang",
+            "spear-goblins",
+            "skeleton-barrel",
+            "miner",
+            "bats",
+            "giant-snowball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC12_MEGAKNIGHT",
+        "name_en": "Mega Goblins"
+    },
+    {
+        "name": "Blind_Classic_HogRider",
+        "spells": [
+            "hog-rider",
+            "valkyrie",
+            "ice-spirit",
+            "goblins",
+            "executioner",
+            "the-log",
+            "tornado",
+            "rocket"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC13_HOGRIDER",
+        "name_en": "Hog'Nado"
+    },
+    {
+        "name": "Blind_Classic_RoyalHogs",
+        "spells": [
+            "royal-hogs",
+            "bandit",
+            "flying-machine",
+            "bats",
+            "barbarians",
+            "musketeer",
+            "barbarian-barrel",
+            "giant-snowball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC14_ROYALHOGS",
+        "name_en": "Pigs on Parade"
+    },
+    {
+        "name": "MirrorDeck_CW",
+        "spells": [],
+        "spell_level": 1,
+        "random_spell_sets": [
+            "MirrorCW_Tank",
+            "MirrorCW_TankSupport",
+            "MirrorCW_AntiTank",
+            "MirrorCW_CheapLeggy",
+            "MirrorCW_Distractions",
+            "MirrorCW_AntiAir",
+            "MirrorCW_DirectDamage"
+        ],
+        "tid": "TID_MIRROR_DECK",
+        "name_en": "Mirror Deck"
+    },
+    {
+        "name": "DeckAITest",
+        "spells": [
+            "knight",
+            "archers",
+            "skeleton-army",
+            "prince",
+            "fireball",
+            "goblins",
+            "goblin-barrel",
+            "baby-dragon"
+        ],
+        "spell_level": [
+            9,
+            9,
+            4,
+            4,
+            7,
+            9,
+            4,
+            4
+        ]
+    },
+    {
+        "name": "BAD_Player",
+        "random_spell_sets": [
+            "BAD_WinCon",
+            "BAD_MiniTank",
+            "BAD_AntiTank",
+            "BAD_AntiAir",
+            "BAD_AntiAir",
+            "BAD_Distraction",
+            "BAD_SmallSpell",
+            "BAD_BigSpell"
+        ]
+    },
+    {
+        "name": "CRLWorlds_Queso",
+        "spells": [
+            "golem",
+            "mega-minion",
+            "lumberjack",
+            "night-witch",
+            "elixir-collector",
+            "baby-dragon",
+            "tornado",
+            "lightning"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CRLBlind_Queso",
+        "name_en": "Team Queso"
+    },
+    {
+        "name": "CRLWorlds_Nova",
+        "spells": [
+            "prince",
+            "rascals",
+            "mega-minion",
+            "tombstone",
+            "graveyard",
+            "dart-goblin",
+            "barbarian-barrel",
+            "poison"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CRLBlind_Nova",
+        "name_en": "Nova Esports"
+    },
+    {
+        "name": "CRLWorlds_Ponos",
+        "spells": [
+            "mega-knight",
+            "mega-minion",
+            "hunter",
+            "balloon",
+            "miner",
+            "ice-golem",
+            "skeletons",
+            "zap"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CRLBlind_Ponos",
+        "name_en": "PONOS Sports"
+    },
+    {
+        "name": "CRLWorlds_Vivo",
+        "spells": [
+            "royal-giant",
+            "the-log",
+            "tornado",
+            "fireball",
+            "ice-wizard",
+            "baby-dragon",
+            "mini-pekka",
+            "tombstone"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CRLBlind_Vivo",
+        "name_en": "Vivo Keyd"
+    },
+    {
+        "name": "CRLWorlds_Immortals",
+        "spells": [
+            "three-musketeers",
+            "electro-dragon",
+            "battle-ram",
+            "lumberjack",
+            "barbarian-hut",
+            "dart-goblin",
+            "barbarian-barrel",
+            "heal"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CRLBlind_Immortals",
+        "name_en": "Immortals"
+    },
+    {
+        "name": "CRLWorlds_KZDX",
+        "spells": [
+            "mortar",
+            "goblin-gang",
+            "spear-goblins",
+            "dart-goblin",
+            "rascals",
+            "miner",
+            "bats",
+            "barbarian-barrel"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CRLBlind_KZDX",
+        "name_en": "KING-ZONE DragonX"
+    },
+    {
+        "name": "ClassicKC1_YaoYao",
+        "spells": [
+            "golem",
+            "mega-minion",
+            "minions",
+            "musketeer",
+            "the-log",
+            "lightning",
+            "skeleton-army",
+            "tombstone"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicKC1_YaoYao",
+        "name_en": "YaoYao (1st)"
+    },
+    {
+        "name": "ClassicKC1_Colton",
+        "spells": [
+            "royal-giant",
+            "furnace",
+            "the-log",
+            "lightning",
+            "mega-minion",
+            "guards",
+            "archers",
+            "ice-spirit"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicKC1_Colton",
+        "name_en": "Coltonw83 (2nd)"
+    },
+    {
+        "name": "ClassicKC1_ChiefPat",
+        "spells": [
+            "lava-hound",
+            "minions",
+            "mega-minion",
+            "archers",
+            "miner",
+            "tombstone",
+            "arrows",
+            "lightning"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicKC1_ChiefPat",
+        "name_en": "ChiefPat (Top 4)"
+    },
+    {
+        "name": "ClassicKC1_TopNotch",
+        "spells": [
+            "x-bow",
+            "ice-golem",
+            "mega-minion",
+            "minions",
+            "inferno-tower",
+            "ice-spirit",
+            "the-log",
+            "fireball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicKC1_TopNotch",
+        "name_en": "TopNotch (Top 4)"
+    },
+    {
+        "name": "ClassicHKI_Jason",
+        "spells": [
+            "giant",
+            "hog-rider",
+            "barbarians",
+            "minion-horde",
+            "archers",
+            "spear-goblins",
+            "arrows",
+            "elixir-collector"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicHKI_Jason",
+        "name_en": "Jason (1st)"
+    },
+    {
+        "name": "ClassicHKI_Steroidi",
+        "spells": [
+            "mortar",
+            "ice-wizard",
+            "tesla",
+            "inferno-tower",
+            "minion-horde",
+            "zap",
+            "skeletons",
+            "elixir-collector"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicHKI_Steroidi",
+        "name_en": "Steroidi69 (2nd)"
+    },
+    {
+        "name": "ClassicHKI_Naazime",
+        "spells": [
+            "hog-rider",
+            "valkyrie",
+            "ice-wizard",
+            "minion-horde",
+            "inferno-tower",
+            "goblins",
+            "poison",
+            "freeze"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicHKI_Naazime",
+        "name_en": "Naazime (Top 4)"
+    },
+    {
+        "name": "ClassicHKI_Elfe",
+        "spells": [
+            "hog-rider",
+            "barbarians",
+            "inferno-tower",
+            "cannon",
+            "goblins",
+            "spear-goblins",
+            "zap",
+            "fireball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicHKI_Elfe",
+        "name_en": "Elfe (Top 4)"
+    },
+    {
+        "name": "ClassicHKI_ClashWithAsh",
+        "spells": [
+            "royal-giant",
+            "barbarian-hut",
+            "goblin-hut",
+            "archers",
+            "goblins",
+            "minions",
+            "arrows",
+            "poison"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_ClassicHKI_ClashWithAsh",
+        "name_en": "ClashWithAsh (Top 8)"
+    },
+    {
+        "name": "FloodHounds_1",
+        "spells": [
+            "lava-hound",
+            "baby-dragon",
+            "electro-dragon",
+            "inferno-dragon",
+            "mega-minion",
+            "bats",
+            "zap",
+            "fireball"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_Blind_FloodHound1",
+        "name_en": "Triple Lizards"
+    },
+    {
+        "name": "FloodHounds_2",
+        "spells": [
+            "lava-hound",
+            "inferno-dragon",
+            "minion-horde",
+            "minions",
+            "bats",
+            "flying-machine",
+            "arrows",
+            "poison"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_Blind_FloodHound2",
+        "name_en": "Flying Minions"
+    },
+    {
+        "name": "FloodHounds_3",
+        "spells": [
+            "lava-hound",
+            "minions",
+            "flying-machine",
+            "minion-horde",
+            "electro-dragon",
+            "giant-snowball",
+            "clone",
+            "lightning"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_Blind_FloodHound3",
+        "name_en": "Clone Hounds"
+    },
+    {
+        "name": "FloodHounds_4",
+        "spells": [
+            "lava-hound",
+            "balloon",
+            "minions",
+            "mega-minion",
+            "bats",
+            "zap",
+            "arrows",
+            "rocket"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_Blind_FloodHound4",
+        "name_en": "Lava-Loon"
+    },
+    {
+        "name": "Blind_Classic_HogQuake",
+        "spells": [
+            "hog-rider",
+            "valkyrie",
+            "archers",
+            "skeletons",
+            "inferno-tower",
+            "barbarian-barrel",
+            "giant-snowball",
+            "earthquake"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC_HOGQUAKE",
+        "name_en": "Hog-Quake!"
+    },
+    {
+        "name": "Blind_Classic_RamRush",
+        "spells": [
+            "ram-rider",
+            "bandit",
+            "lumberjack",
+            "musketeer",
+            "giant-snowball",
+            "barbarian-barrel",
+            "ice-golem",
+            "minions"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC_RAMRUSH",
+        "name_en": "Ram Rushers"
+    },
+    {
+        "name": "Blind_Classic_GiantPrince",
+        "spells": [
+            "giant",
+            "the-log",
+            "zap",
+            "fireball",
+            "prince",
+            "electro-dragon",
+            "mega-minion",
+            "miner"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC_GIANTPRINCE",
+        "name_en": "Gigantic Prince"
+    },
+    {
+        "name": "Blind_Classic_Balloon",
+        "spells": [
+            "balloon",
+            "ice-golem",
+            "ice-spirit",
+            "giant-snowball",
+            "lumberjack",
+            "musketeer",
+            "bats",
+            "barbarian-barrel"
+        ],
+        "spell_level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "tid": "TID_CLASSIC_BALLOONCYCLE",
+        "name_en": "Snow Balloons"
+    }
+]
