@@ -1,0 +1,62 @@
+#######################################    PROPERTIES
+local.properties
+
+
+#######################################    JAVA
+*.class
+*.ear
+*.jar
+*.log
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+
+
+#######################################    MAVEN
+!/.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+pom.xml.*
+target/
+.mvn/
+
+
+#######################################    IDE
+#####    Eclipse
+*.bak
+*.nib
+*.swp
+*.tmp
+.apt_generated
+.classpath
+.factorypath
+.metadata
+
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+tmp/
+
+#####    IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+out/
+
+#####    NetBeans
+/.nb-gradle/
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/nbproject/private/
+
+
+#######################################    MISC.
+~$*.xlsx
+HELP.md
