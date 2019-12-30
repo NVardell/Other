@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, NavbarToggler, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-export default class AppNavbar extends Component {
+export default class TopNavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {isOpen: false};
@@ -22,6 +22,7 @@ export default class AppNavbar extends Component {
                 <Nav className="ml-auto">
                     <NavLink href="/">Home</NavLink>
                     <NavLink href="/groups">Groups</NavLink>
+                    <NavLink href="/groups_2">Groups 2</NavLink>
                 </Nav>
         </Navbar>
     }

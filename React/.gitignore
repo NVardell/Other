@@ -20,6 +20,7 @@ dependency-reduced-pom.xml
 pom.xml.*
 target/
 .mvn/
+!/.mvn/
 
 
 #######################################    IDE
@@ -60,3 +61,4 @@ out/
 #######################################    MISC.
 ~$*.xlsx
 HELP.md
+
