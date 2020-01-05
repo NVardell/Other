@@ -21,12 +21,12 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-public class GroupController {
+public class GroupResource {
 
-    private final Logger log = LoggerFactory.getLogger(GroupController.class);
+    private final Logger log = LoggerFactory.getLogger(GroupResource.class);
     private GroupRepo groupRepository;
 
-    public GroupController(GroupRepo groupRepository) {
+    public GroupResource(GroupRepo groupRepository) {
         this.groupRepository = groupRepository;
     }
 
@@ -52,6 +52,13 @@ public class GroupController {
 
     @PutMapping("/group/{id}")
     ResponseEntity<Group> updateGroup(@Valid @RequestBody Group group) {
+        log.info("Request to update group: {}", group);
+        Group result = groupRepository.save(group);
+        return ResponseEntity.ok().body(result);
+    }
+
+    @PutMapping("/group")
+    ResponseEntity<Group> updateGroup_2(@Valid @RequestBody Group group) {
         log.info("Request to update group: {}", group);
         Group result = groupRepository.save(group);
         return ResponseEntity.ok().body(result);

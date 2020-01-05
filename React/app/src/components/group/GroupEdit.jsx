@@ -50,7 +50,7 @@ class GroupEdit extends Component {
             },
             body: JSON.stringify(item),
         });
-        // this.props.history.push('/groups_2');
+        this.props.history.push('/groups');
     }
 
     render() {

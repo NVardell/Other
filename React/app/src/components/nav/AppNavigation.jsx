@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import TopNavBar from "./TopNavBar";
-import SideNavBar from "./SideNavBar";
 
 export default class AppNavigation extends Component {
     constructor(props) {
@@ -18,7 +17,6 @@ export default class AppNavigation extends Component {
     render() {
         return <>
             <TopNavBar/>
-            <SideNavBar/>
         </>
     }
 }

@@ -23,7 +23,7 @@ class RequestEdit extends Component {
     }
 
     async componentDidMount() {
-        if (this.props.match.params.id !== 'new') {
+        if (this.props.match.params.id) {
             const group = await (await fetch(`/api/group/${this.props.match.params.id}`)).json();
             this.setState({item: group});
         }
