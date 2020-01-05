@@ -3,6 +3,8 @@ import {Field, Formik} from "formik";
 import {DisplayFormikState} from "./GroupHelper";
 import * as Yup from "yup";
 
+// https://blog.logrocket.com/getting-started-with-react-select/
+
 class GroupEdit2 extends Component {
 render() {
     return(  <div>
