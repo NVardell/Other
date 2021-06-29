@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6C1845E-8563-9228-CA8E-D15E8F7DD3AB" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="CERTIFICATIONS">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>CERTIFICATIONS</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6F647FD2-C33B-7290-A4FC-3E9480193CC9">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>CERTIFICATIONS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>CERT_ID_SEQUENCE</autoIncrementSequenceName>
+<autoIncrementTriggerName>CERT_ID_TRIGGER</autoIncrementTriggerName>
+</Column>
+<Column name="CERT_URL" id="FC5633EE-3881-F8AF-705D-D642F14AE3C7">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>CERTIFICATIONS</sourceObjSchema>
+<sourceObjName>CERT_URL</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAINER" id="184C0A41-7730-1518-ADB1-EA55A28A2940">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>CERTIFICATIONS</sourceObjSchema>
+<sourceObjName>TRAINER</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4816A631-1D9D-8966-1149-D68E4E8767FE" referredColumn="42E950CE-D1C9-7356-C618-0FE69D061651"/>
+</associations>
+</Column>
+<Column name="CERT_NAME" id="B310382D-1631-4DAD-C842-DD7871854CAF">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>CERTIFICATIONS</sourceObjSchema>
+<sourceObjName>CERT_NAME</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="471A6542-EADB-2DF9-51F1-EC20F82B0658" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="CERTIFICATIONS_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005198</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F647FD2-C33B-7290-A4FC-3E9480193CC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33A989DA-094F-C3D2-EC83-81BDBF750872" name="FKAYYT8WAD8PDXNPOXPEJMF31NJ">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="184C0A41-7730-1518-ADB1-EA55A28A2940"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

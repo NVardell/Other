@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ROOM" directorySegmentName="seg_0" id="C3854F2A-1284-E9EB-5646-AF31BCF1CA52">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BA3ED8C0-1A07-5B81-E50B-14B0D6D905E3</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BUILDING" id="57A69168-EA33-4494-21FB-DAEFDAA6A3E6">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="73D26058-EEC7-FB38-0285-7D07CEFD5CE6">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVE" id="B20C7142-3B25-FB1F-2826-B49AF874E5E9">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID" id="BB813020-CE63-59BC-D890-34EF7353B068">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C005592" id="10287AED-9D4E-B7C0-832D-CB7B40EC7B3E">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<segment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UK_C58D6DWP9GD6NGVD4GWJ4U3H2" id="CD3610CC-3A95-65CA-AAFF-51C6D891023C">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<segment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKL8DIJ7NFOG5OQ1CJ8HW5OFYCT" id="24AA0C86-00F1-7D7D-3421-8751EFC36E55">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ROOM_PK" id="E64732B1-73C9-6E0A-C965-64ADF32CFA43">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<segment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<existingIndex>10287AED-9D4E-B7C0-832D-CB7B40EC7B3E</existingIndex>
+<indexSegment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK_C58D6DWP9GD6NGVD4GWJ4U3H2" id="D701242B-F602-4B1B-38EC-59DB42057236">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<segment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<existingIndex>CD3610CC-3A95-65CA-AAFF-51C6D891023C</existingIndex>
+<indexSegment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

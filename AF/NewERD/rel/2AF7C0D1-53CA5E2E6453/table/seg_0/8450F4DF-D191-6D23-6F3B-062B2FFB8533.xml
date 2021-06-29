@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8450F4DF-D191-6D23-6F3B-062B2FFB8533" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="UNAVAILABILITY">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UNAVAILABILITY</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E03365E6-83B9-1B60-7549-C6E5E8CE0245">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>UNAVAILABILITY</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="1D9CD219-28BB-1A55-B800-F483A8DE8D48">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>UNAVAILABILITY</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="8F54EB91-00CC-A9EF-4F9B-E6B434E9F9C3">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>UNAVAILABILITY</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8732D77-F3FF-E6A3-305E-1E033146F121" name="UNAVAILABILITY_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005162</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E03365E6-83B9-1B60-7549-C6E5E8CE0245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E06C70C-0167-81A0-167F-7840C8E6C421" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="SYS_C005612">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005612</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E03365E6-83B9-1B60-7549-C6E5E8CE0245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

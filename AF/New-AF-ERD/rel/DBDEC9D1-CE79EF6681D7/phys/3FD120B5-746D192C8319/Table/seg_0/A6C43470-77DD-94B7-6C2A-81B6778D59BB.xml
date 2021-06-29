@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRAINER" directorySegmentName="seg_0" id="A6C43470-77DD-94B7-6C2A-81B6778D59BB">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:21 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7C8AD7BC-3472-42F5-5328-D95D3824C5DF</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TRAINER_RESUME" id="3CCD4F98-6A13-7A98-D30F-52DEE6BC7627">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="456E5F8E-2B9C-8556-3A0F-906BB9B718E4">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVE" id="81C03C01-79BA-8C5C-8565-B6CFAFE9FDFC">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="AD8D644E-914C-745D-FB6E-2F50BF5B1D35">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="F9EE17F1-9759-4F84-0DD1-C0664E1341AB">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C005604" id="59C2B4E9-8804-4A20-32EB-23509F8412DD">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRAINER_PK" id="58597CB4-902E-D2F4-DAF3-501E5EC84D8B">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<existingIndex>59C2B4E9-8804-4A20-32EB-23509F8412DD</existingIndex>
+<indexSegment>89A22074-607C-B0ED-0027-DEABB717DA69</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

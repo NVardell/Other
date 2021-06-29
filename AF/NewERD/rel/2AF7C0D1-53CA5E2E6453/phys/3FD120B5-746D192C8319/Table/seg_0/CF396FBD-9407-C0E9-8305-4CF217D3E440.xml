@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="BATCH" directorySegmentName="seg_0" id="CF396FBD-9407-C0E9-8305-4CF217D3E440">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BA3ED8C0-1A07-5B81-E50B-14B0D6D905E3</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FOCUS" id="0D80CF32-D8DE-693E-9B32-D6F2C240F8B2">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="1AA86C4F-9188-C062-F2E7-9BABE52D0511">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROOM" id="5C68CCE9-92D4-DC8D-AA86-7ABABB7F6F32">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COTRAINER" id="77253D95-55B1-8CA9-B854-A15974BE603F">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="867D90C6-D9B7-2E28-67F5-2F65E38260AB">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRICULUM" id="9959633A-17D2-BFA4-C878-AB066BA6FAE3">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRAINER" id="AC19C179-0AC1-CFED-D559-60FB1CEBF500">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="BFEDF6C2-4B6A-8948-825F-D636B303414A">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="CC6552C4-CE46-8FA5-4A8F-B34629A8116D">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="F8BC36FA-1C5E-CD64-51D4-11B9F5D838F2">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C005578" id="5FBB7B1F-EE4B-3140-5147-CE9001A82F4C">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<segment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK6WUMUNDPQXB03W6WTFUGIFPN2" id="04D56B22-A966-6E5D-8037-011920826B28">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK2BLXGRHY55FMH69JQCG7612HH" id="050859E9-923D-CE4C-F849-5B5EE02C9D25">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKS999N0AHDI8XBLMYX2V9EHNBI" id="1640C8CF-0387-2DB1-0B28-8824CB7EED77">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKJWDYLBPH8W46YQ1VNVNEIJBLX" id="4537CFFF-3423-F0AB-A714-37990AF9A830">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK30NYWIM1DMCS7QB6D5NDC5ASL" id="938698C3-2975-5DE0-72BE-37362C3293D5">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKQ82D869HBYQF7XIMDW8TSGMT6" id="AF542ED4-7B4D-F83C-042D-809790A69A78">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BATCH_PK" id="2C898623-0BCE-A404-5DFA-7A342E115090">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<segment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<existingIndex>5FBB7B1F-EE4B-3140-5147-CE9001A82F4C</existingIndex>
+<indexSegment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CDB2BD0-8B40-B00D-A5BB-834E592A7F50" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="CURRICULUM">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>CURRICULUM</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6BD50E98-1EF8-E36A-A137-5421A636D6A9">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>CURRICULUM</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="A045E819-57A9-452B-2BF7-BC32093DE729">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>CURRICULUM</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE" id="B45F198F-E184-AA9A-9B09-17FD7802A1AA">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>CURRICULUM</sourceObjSchema>
+<sourceObjName>ACTIVE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORE" id="A4787D10-32B7-75C9-80E9-5AFA0DB1B21D">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>CURRICULUM</sourceObjSchema>
+<sourceObjName>CORE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="579DF08A-74A5-B643-1C1D-78C2015079E2" name="CURRICULUM_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005133</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD50E98-1EF8-E36A-A137-5421A636D6A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6102114A-7227-E4E2-1623-5EB29C18748D" name="UK_23YYYB6FC6IB2CRJ9NEIHOGNA">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_23YYYB6FC6IB2CRJ9NEIHOGNA</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A045E819-57A9-452B-2BF7-BC32093DE729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C9DCBB1-ABD4-665D-E601-0973EC2AA13E" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="SYS_C005584">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005584</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD50E98-1EF8-E36A-A137-5421A636D6A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C77D313-4E4C-7BBB-D3E7-F11236FB3E18" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="UK_23YYYB6FC6IB2CRJ9NEIHOGNA">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_23YYYB6FC6IB2CRJ9NEIHOGNA</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A045E819-57A9-452B-2BF7-BC32093DE729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

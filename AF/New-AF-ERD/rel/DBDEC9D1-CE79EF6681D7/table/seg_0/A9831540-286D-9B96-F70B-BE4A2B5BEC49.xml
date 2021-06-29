@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9831540-286D-9B96-F70B-BE4A2B5BEC49" schemaObject="8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16" name="LOCATION">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:21 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2824D628-071A-7DC5-8C95-54E392156B03">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="E01DE9AA-B302-EFB8-96D0-60CFFD823073">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="2FB48B09-1185-6C40-D9BA-B022E4798515">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="3B6671A2-906A-1B5A-65B3-CD2E85401390">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>STATE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE" id="D2D3D9E9-F9AE-9FCC-F08A-E124994CE197">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>ACTIVE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CADA5B76-94D8-3601-9B15-3A3BF98C9B6D" name="LOCATION_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005139</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2824D628-071A-7DC5-8C95-54E392156B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="127B52F4-8A5A-0268-FC4F-45BA7DEDCB1A" name="UK_J4URFP6NTPXEQJIWJTVA9G9QO">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_J4URFP6NTPXEQJIWJTVA9G9QO</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB48B09-1185-6C40-D9BA-B022E4798515"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="783AF18B-0A3F-2AEC-A91E-A343FF483FA8" schemaObject="8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16" name="SYS_C005589">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005589</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2824D628-071A-7DC5-8C95-54E392156B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5789E8AB-CBEE-EF86-4768-C96727F3128C" schemaObject="8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16" name="UK_J4URFP6NTPXEQJIWJTVA9G9QO">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_J4URFP6NTPXEQJIWJTVA9G9QO</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB48B09-1185-6C40-D9BA-B022E4798515"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="BATCH_SKILL_JT" directorySegmentName="seg_0" id="A329CA38-2BC6-9490-B550-0556C5375193">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BA3ED8C0-1A07-5B81-E50B-14B0D6D905E3</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SKILL_ID" id="C37E59A6-37B1-8C97-1332-9A760C7446DA">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_ID" id="CD325545-386E-5842-D99B-C46B6259717C">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKCQ2XHQ2P89S92IAYSU2UK2HEF" id="1C2766B2-BB56-AEB5-78CF-FDBA7274B6B0">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKGUGPGUW2QNJ7YPH6TY2WA4DAJ" id="7FFEBD98-E610-F55A-5FEC-9BDC3340D798">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

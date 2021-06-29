@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7449950-889D-2D60-06BD-EF236D85FC9F" containerWithKeyObject="E7A64F7D-FEFC-63C6-9B5E-FB4CDFC39289" localFKIndex="3DE74E2B-121F-D9D7-7AD0-E11DB8CD1C76" name="FK6WUMUNDPQXB03W6WTFUGIFPN2">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>FK6WUMUNDPQXB03W6WTFUGIFPN2</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<referredTableLongName>ASSIGNFORCE_DEV.BATCH_STATUS_LOOKUP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4BF1F571-9ADB-55E3-E4E1-25EDA1B1F359</referredTableID>
+<keyObject>0858648D-D0F2-0B4E-757A-147C08283DCE</keyObject>
+<referredKeyID>0858648D-D0F2-0B4E-757A-147C08283DCE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BATCH_STATUS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

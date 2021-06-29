@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="UNAVAILABILITY" directorySegmentName="seg_0" id="8450F4DF-D191-6D23-6F3B-062B2FFB8533">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BA3ED8C0-1A07-5B81-E50B-14B0D6D905E3</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="END_DATE" id="1D9CD219-28BB-1A55-B800-F483A8DE8D48">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="8F54EB91-00CC-A9EF-4F9B-E6B434E9F9C3">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="E03365E6-83B9-1B60-7549-C6E5E8CE0245">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C005612" id="8E06C70C-0167-81A0-167F-7840C8E6C421">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<segment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="UNAVAILABILITY_PK" id="A8732D77-F3FF-E6A3-305E-1E033146F121">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<segment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<existingIndex>8E06C70C-0167-81A0-167F-7840C8E6C421</existingIndex>
+<indexSegment>462EAECD-6F99-6EA8-CDB2-BFF1AC296A1F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

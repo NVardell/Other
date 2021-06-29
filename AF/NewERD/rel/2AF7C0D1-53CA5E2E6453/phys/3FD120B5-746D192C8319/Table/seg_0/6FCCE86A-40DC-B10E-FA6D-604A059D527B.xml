@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ROOM_UNAVAILABILITY_JT" directorySegmentName="seg_0" id="6FCCE86A-40DC-B10E-FA6D-604A059D527B">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<schemaObject>9D54E2D5-ED76-8040-140C-4DAC979FD00A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BA3ED8C0-1A07-5B81-E50B-14B0D6D905E3</segment>
+<tableSpace>0AD1130B-5315-5DD4-1011-6B0C0060840C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UNAVAILABLE_ID" id="5EA20CE1-3AEF-777E-2443-90158BB60948">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROOM_ID" id="B066BEB7-BFCB-7AE9-BD97-DB3D148F1CA4">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKE3UF25NUWJ8OO3UO3V1H2GJ7H" id="0A31F1E8-7726-F19A-B609-BEB22587EBA8">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKJIMHB6MT5DRGWL18A7DOWBSNF" id="BC69B8EB-CA52-BB1B-7ACD-F415927577AA">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

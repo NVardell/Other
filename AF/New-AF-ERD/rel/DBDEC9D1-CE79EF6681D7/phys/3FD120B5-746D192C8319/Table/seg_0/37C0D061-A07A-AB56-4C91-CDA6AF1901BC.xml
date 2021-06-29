@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SKILL" directorySegmentName="seg_0" id="37C0D061-A07A-AB56-4C91-CDA6AF1901BC">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:21 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7C8AD7BC-3472-42F5-5328-D95D3824C5DF</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="4967C920-9403-7EC7-2FB5-3D47052545CF">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="4EC57F7A-2799-819F-1F91-D8596FF4A2E1">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVE" id="89B78D76-7266-1AE1-96CB-4DC36C76E486">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UK_D4BF4VTN10H58D2Y96S0WFEMV" id="243D6898-A9F4-9044-0831-428A078A77A6">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C005597" id="8BE15DCB-3858-4C6E-46C7-42D3880C4CD4">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SKILL_PK" id="7D040A0C-7FD9-AE52-4E69-21358C74E285">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<existingIndex>8BE15DCB-3858-4C6E-46C7-42D3880C4CD4</existingIndex>
+<indexSegment>89A22074-607C-B0ED-0027-DEABB717DA69</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK_D4BF4VTN10H58D2Y96S0WFEMV" id="A5E14F9E-90E5-E583-3D96-60B09BA282D2">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<existingIndex>243D6898-A9F4-9044-0831-428A078A77A6</existingIndex>
+<indexSegment>89A22074-607C-B0ED-0027-DEABB717DA69</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0586EEF-9FDD-A05A-0FD1-9DDC8ED4F550" schemaObject="8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16" name="ROOM">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>ROOM</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:21 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="34F1D09A-2F93-7E0B-C205-33E6996008EE">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="F634D89F-E76F-D9DA-D362-B193FFA7B747">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="E80A8CFA-B0CC-1861-3888-D586A97DBD68">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="939E6DC8-5B74-3610-12B0-666A4EED6DEE" referredColumn="2824D628-071A-7DC5-8C95-54E392156B03"/>
+</associations>
+</Column>
+<Column name="ACTIVE" id="39B8D5B7-5818-483A-D360-0CFEF9DD6BE7">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM</sourceObjSchema>
+<sourceObjName>ACTIVE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8A8A3BE-797F-DB04-41D6-8ED4B4706B25" name="ROOM_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005143</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34F1D09A-2F93-7E0B-C205-33E6996008EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E6A6259-6C2A-2F52-C6AB-B63714230164" name="UK_C58D6DWP9GD6NGVD4GWJ4U3H2">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_C58D6DWP9GD6NGVD4GWJ4U3H2</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F634D89F-E76F-D9DA-D362-B193FFA7B747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC35C103-83BD-59E2-932A-1FCEB3B939A3" schemaObject="8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16" name="SYS_C005592">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005592</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34F1D09A-2F93-7E0B-C205-33E6996008EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7185C4AA-04CF-BF1F-AFF4-096EA6479CD3" schemaObject="8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16" name="UK_C58D6DWP9GD6NGVD4GWJ4U3H2">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_C58D6DWP9GD6NGVD4GWJ4U3H2</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F634D89F-E76F-D9DA-D362-B193FFA7B747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="793F9105-3C9A-0CA1-1CFB-72C965C30866" name="FKGQ9R2UGC2D6NOTXE951E99179">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E80A8CFA-B0CC-1861-3888-D586A97DBD68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

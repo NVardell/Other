@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70FFE9EB-E559-E4E8-E62F-1F7DB0AF11F5" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="BATCH_STATUS_LOOKUP">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>BATCH_STATUS_LOOKUP</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BATCH_STATUS_ID" id="213A60C8-8C32-7637-3ABD-B9CB142121C6">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH_STATUS_LOOKUP</sourceObjSchema>
+<sourceObjName>BATCH_STATUS_ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BS_NAME" id="B863C176-A60D-0BA6-E8EA-B4E75206B164">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH_STATUS_LOOKUP</sourceObjSchema>
+<sourceObjName>BS_NAME</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21E71B22-3822-27A6-7D14-65F65B121B79" name="BATCH_STATUS_LOOKUP_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005129</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="213A60C8-8C32-7637-3ABD-B9CB142121C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CD3123C-5543-91CE-D4C4-3C1A40DBCBFF" name="UK_KGISBYR4P2HFKN4YI3TGHFYVU">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_KGISBYR4P2HFKN4YI3TGHFYVU</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B863C176-A60D-0BA6-E8EA-B4E75206B164"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA668EB4-2CD9-3386-F984-0655F3E161A5" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="SYS_C005581">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005581</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="213A60C8-8C32-7637-3ABD-B9CB142121C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A243085D-9BE4-69B8-A12D-045C86196BED" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="UK_KGISBYR4P2HFKN4YI3TGHFYVU">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_KGISBYR4P2HFKN4YI3TGHFYVU</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B863C176-A60D-0BA6-E8EA-B4E75206B164"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

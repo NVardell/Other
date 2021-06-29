@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3854F2A-1284-E9EB-5646-AF31BCF1CA52" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="ROOM">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>ROOM</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BB813020-CE63-59BC-D890-34EF7353B068">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="73D26058-EEC7-FB38-0285-7D07CEFD5CE6">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE" id="B20C7142-3B25-FB1F-2826-B49AF874E5E9">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM</sourceObjSchema>
+<sourceObjName>ACTIVE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUILDING" id="57A69168-EA33-4494-21FB-DAEFDAA6A3E6">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM</sourceObjSchema>
+<sourceObjName>BUILDING</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5355B53D-810B-C8E7-919D-BB004C605506" referredColumn="CBBB3256-C329-0E51-01A4-E4BC2AA9EAAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E64732B1-73C9-6E0A-C965-64ADF32CFA43" name="ROOM_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005143</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB813020-CE63-59BC-D890-34EF7353B068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D701242B-F602-4B1B-38EC-59DB42057236" name="UK_C58D6DWP9GD6NGVD4GWJ4U3H2">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_C58D6DWP9GD6NGVD4GWJ4U3H2</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73D26058-EEC7-FB38-0285-7D07CEFD5CE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10287AED-9D4E-B7C0-832D-CB7B40EC7B3E" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="SYS_C005592">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005592</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB813020-CE63-59BC-D890-34EF7353B068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD3610CC-3A95-65CA-AAFF-51C6D891023C" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="UK_C58D6DWP9GD6NGVD4GWJ4U3H2">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_C58D6DWP9GD6NGVD4GWJ4U3H2</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73D26058-EEC7-FB38-0285-7D07CEFD5CE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24AA0C86-00F1-7D7D-3421-8751EFC36E55" name="FKL8DIJ7NFOG5OQ1CJ8HW5OFYCT">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57A69168-EA33-4494-21FB-DAEFDAA6A3E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

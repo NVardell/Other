@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRAINER_UNAVAILABILITY_JT" directorySegmentName="seg_0" id="8FF1BC7A-913F-9681-866D-A91B87040C5B">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:21 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7C8AD7BC-3472-42F5-5328-D95D3824C5DF</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TRAINER" id="4813FFC8-607C-C965-CAB5-2B97CF30D52C">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNAVAILABILITY" id="772BF6D3-D948-A5D0-453D-4BF303EE2B03">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKJ42ILRWIOKWMX6DF5QR6AP0QG" id="175BE30A-6D38-5347-E999-5CA59B3F70D1">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK41V2K1F6EAC50TCWBR2KFAGPT" id="9E9FB345-C126-DE34-9926-43F1D3067AF9">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:25 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FCCE86A-40DC-B10E-FA6D-604A059D527B" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="ROOM_UNAVAILABILITY_JT">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>ROOM_UNAVAILABILITY_JT</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROOM_ID" id="B066BEB7-BFCB-7AE9-BD97-DB3D148F1CA4">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM_UNAVAILABILITY_JT</sourceObjSchema>
+<sourceObjName>ROOM_ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="713B93E4-00A0-C243-A12E-C6FD2866F745" referredColumn="BB813020-CE63-59BC-D890-34EF7353B068"/>
+</associations>
+</Column>
+<Column name="UNAVAILABLE_ID" id="5EA20CE1-3AEF-777E-2443-90158BB60948">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ROOM_UNAVAILABILITY_JT</sourceObjSchema>
+<sourceObjName>UNAVAILABLE_ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1814A8F3-09D0-EA0A-5F19-A68EB4BDCB76" referredColumn="E03365E6-83B9-1B60-7549-C6E5E8CE0245"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A31F1E8-7726-F19A-B609-BEB22587EBA8" name="FKE3UF25NUWJ8OO3UO3V1H2GJ7H">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EA20CE1-3AEF-777E-2443-90158BB60948"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC69B8EB-CA52-BB1B-7ACD-F415927577AA" name="FKJIMHB6MT5DRGWL18A7DOWBSNF">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B066BEB7-BFCB-7AE9-BD97-DB3D148F1CA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

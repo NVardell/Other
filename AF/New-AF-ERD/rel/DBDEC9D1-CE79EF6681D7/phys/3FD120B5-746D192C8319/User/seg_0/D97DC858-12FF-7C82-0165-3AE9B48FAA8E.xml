@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="ASSIGNFORCE_DEV" directorySegmentName="seg_0" id="D97DC858-12FF-7C82-0165-3AE9B48FAA8E">
+<sourceConnName>AF</sourceConnName>
+<sourceObjName>ASSIGNFORCE_DEV</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:20 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="ADE53A5D-0B2A-5916-E1E6-A95F94867994">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:20 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

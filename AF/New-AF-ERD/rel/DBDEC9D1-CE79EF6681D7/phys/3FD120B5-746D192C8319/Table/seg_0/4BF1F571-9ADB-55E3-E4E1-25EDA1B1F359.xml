@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="BATCH_STATUS_LOOKUP" directorySegmentName="seg_0" id="4BF1F571-9ADB-55E3-E4E1-25EDA1B1F359">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:21 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7C8AD7BC-3472-42F5-5328-D95D3824C5DF</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BATCH_STATUS_ID" id="05BBC32A-DA52-AF11-FE70-322584531814">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BS_NAME" id="BBCD0E8E-799A-CD3A-D6E8-4CCBFB6B3DE1">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:22 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UK_KGISBYR4P2HFKN4YI3TGHFYVU" id="569E02F4-B996-5312-4127-8031718A7D20">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C005581" id="9C8AF71E-FF61-9CED-D032-7404BD7CB57B">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<schemaObject>8A8EFA16-1CD5-77F1-1A2A-19BE8F933B16</schemaObject>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BATCH_STATUS_LOOKUP_PK" id="0858648D-D0F2-0B4E-757A-147C08283DCE">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<existingIndex>9C8AF71E-FF61-9CED-D032-7404BD7CB57B</existingIndex>
+<indexSegment>89A22074-607C-B0ED-0027-DEABB717DA69</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK_KGISBYR4P2HFKN4YI3TGHFYVU" id="0D419737-6AC9-51DE-E124-BA93D01DCFE8">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-01 15:04:24 UTC</createdTime>
+<ownerDesignName>New-AF-ERD</ownerDesignName>
+<segment>89A22074-607C-B0ED-0027-DEABB717DA69</segment>
+<tableSpace>EE134684-493F-C735-1E15-D949CA65412E</tableSpace>
+<existingIndex>569E02F4-B996-5312-4127-8031718A7D20</existingIndex>
+<indexSegment>89A22074-607C-B0ED-0027-DEABB717DA69</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

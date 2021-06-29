@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA062E9C-B20F-DAE0-B1B9-C931D3F9599A" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="BUILDING">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>BUILDING</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CBBB3256-C329-0E51-01A4-E4BC2AA9EAAA">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BUILDING</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE" id="D19FF1E3-E357-B571-6E57-B1A8DCE70D74">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BUILDING</sourceObjSchema>
+<sourceObjName>ACTIVE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="637305C1-3392-A84A-F031-7EC9108A23E8">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BUILDING</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="741FBC6A-C319-442F-C5CD-00415FA94A49" referredColumn="76704651-27AD-0850-95AC-3A4BA8738EA3"/>
+</associations>
+</Column>
+<Column name="NAME" id="8C35A20C-D442-9C5B-302D-A15D3E5EB631">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BUILDING</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6044AA65-5A1F-F863-0FB9-754C2EE3FF25" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="BUILDING_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005213</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBBB3256-C329-0E51-01A4-E4BC2AA9EAAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="285C4292-7821-F867-5869-121221DCDCF4" name="UK_S6Q8PMRKL2HIXJ9MS1CM238QQ">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_S6Q8PMRKL2HIXJ9MS1CM238QQ</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C35A20C-D442-9C5B-302D-A15D3E5EB631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F3E45B8-BD32-1C05-E036-D2B57B174108" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="UK_S6Q8PMRKL2HIXJ9MS1CM238QQ">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>UK_S6Q8PMRKL2HIXJ9MS1CM238QQ</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C35A20C-D442-9C5B-302D-A15D3E5EB631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88ADEF33-025E-DE9F-340E-BAE04A2CCC24" name="FKQLRBM226CJQNEVHE3EG6CL4VQ">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="637305C1-3392-A84A-F031-7EC9108A23E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

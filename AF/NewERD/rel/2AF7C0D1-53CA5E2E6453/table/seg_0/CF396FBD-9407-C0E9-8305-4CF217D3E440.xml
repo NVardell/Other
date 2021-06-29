@@ -1,0 +1,275 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF396FBD-9407-C0E9-8305-4CF217D3E440" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="BATCH">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>BATCH</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:27 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1AA86C4F-9188-C062-F2E7-9BABE52D0511">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="867D90C6-D9B7-2E28-67F5-2F65E38260AB">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="CC6552C4-CE46-8FA5-4A8F-B34629A8116D">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="F8BC36FA-1C5E-CD64-51D4-11B9F5D838F2">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="BFEDF6C2-4B6A-8948-825F-D636B303414A">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAFCEA89-4125-D9E7-96F8-62F5B4C2890E" referredColumn="213A60C8-8C32-7637-3ABD-B9CB142121C6"/>
+</associations>
+</Column>
+<Column name="COTRAINER" id="77253D95-55B1-8CA9-B854-A15974BE603F">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>COTRAINER</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1766A8F8-D7CE-D3B1-8BE9-686D30920849" referredColumn="42E950CE-D1C9-7356-C618-0FE69D061651"/>
+</associations>
+</Column>
+<Column name="CURRICULUM" id="9959633A-17D2-BFA4-C878-AB066BA6FAE3">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>CURRICULUM</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F2ADD9F-DC7F-5D41-6F4E-2E3B11E36520" referredColumn="6BD50E98-1EF8-E36A-A137-5421A636D6A9"/>
+</associations>
+</Column>
+<Column name="ROOM" id="5C68CCE9-92D4-DC8D-AA86-7ABABB7F6F32">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>ROOM</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE19E8E9-0A8B-4273-D6CE-FFE271E16742" referredColumn="BB813020-CE63-59BC-D890-34EF7353B068"/>
+</associations>
+</Column>
+<Column name="TRAINER" id="AC19C179-0AC1-CFED-D559-60FB1CEBF500">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>TRAINER</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70166624-665F-6B1B-9F79-709E03A961BA" referredColumn="42E950CE-D1C9-7356-C618-0FE69D061651"/>
+</associations>
+</Column>
+<Column name="FOCUS" id="0D80CF32-D8DE-693E-9B32-D6F2C240F8B2">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>BATCH</sourceObjSchema>
+<sourceObjName>FOCUS</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5268ED58-511A-BC94-4A35-4CCCB0A9F630" referredColumn="6BD50E98-1EF8-E36A-A137-5421A636D6A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C898623-0BCE-A404-5DFA-7A342E115090" name="BATCH_PK">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005125</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA86C4F-9188-C062-F2E7-9BABE52D0511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FBB7B1F-EE4B-3140-5147-CE9001A82F4C" schemaObject="9D54E2D5-ED76-8040-140C-4DAC979FD00A" name="SYS_C005578">
+<sourceConnName>AF</sourceConnName>
+<sourceObjSchema>ASSIGNFORCE_DEV</sourceObjSchema>
+<sourceObjName>SYS_C005578</sourceObjName>
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:28 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA86C4F-9188-C062-F2E7-9BABE52D0511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="050859E9-923D-CE4C-F849-5B5EE02C9D25" name="FK2BLXGRHY55FMH69JQCG7612HH">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D80CF32-D8DE-693E-9B32-D6F2C240F8B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="938698C3-2975-5DE0-72BE-37362C3293D5" name="FK30NYWIM1DMCS7QB6D5NDC5ASL">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C68CCE9-92D4-DC8D-AA86-7ABABB7F6F32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04D56B22-A966-6E5D-8037-011920826B28" name="FK6WUMUNDPQXB03W6WTFUGIFPN2">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFEDF6C2-4B6A-8948-825F-D636B303414A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4537CFFF-3423-F0AB-A714-37990AF9A830" name="FKJWDYLBPH8W46YQ1VNVNEIJBLX">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC19C179-0AC1-CFED-D559-60FB1CEBF500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF542ED4-7B4D-F83C-042D-809790A69A78" name="FKQ82D869HBYQF7XIMDW8TSGMT6">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9959633A-17D2-BFA4-C878-AB066BA6FAE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1640C8CF-0387-2DB1-0B28-8824CB7EED77" name="FKS999N0AHDI8XBLMYX2V9EHNBI">
+<createdBy>NV</createdBy>
+<createdTime>2017-02-28 15:52:29 UTC</createdTime>
+<ownerDesignName>NewERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77253D95-55B1-8CA9-B854-A15974BE603F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
